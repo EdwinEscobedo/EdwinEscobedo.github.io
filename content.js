@@ -20,7 +20,7 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 1,
       "role": "PI",
-      "image": "signs.svg",
+      "image": "signoperu-web.webp",
       "title": {
         "en": "SignoPeru · AI sign recognition",
         "es": "SignoPerú · reconocimiento de señas"
@@ -61,7 +61,7 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "pairs.svg",
+      "image": "signoperu-recognition.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
@@ -102,7 +102,7 @@ window.RESEARCH={
       "category": "Immersive learning",
       "stage": 3,
       "role": "PI",
-      "image": "vr.svg",
+      "image": "signoperu-vr.webp",
       "title": {
         "en": "SignoPeruVR · Immersive learning",
         "es": "SignoPerúVR · aprendizaje inmersivo"
@@ -177,15 +177,15 @@ window.RESEARCH={
       "year": "2021",
       "category": "Doctoral research · UFOP",
       "role": "Author",
-      "image": "fig-libras.webp",
+      "image": "libras-sequence.webp",
       "group": "doctoral",
       "title": {
         "en": "LIBRAS-UFOP: minimal-pair sign-language dataset",
         "es": "LIBRAS-UFOP: dataset de señas basadas en pares mínimos"
       },
       "summary": {
-        "en": "Research developed during my PhD at Universidade Federal de Ouro Preto, Brazil. The LIBRAS-UFOP dataset captures visually similar signs using synchronized RGB, depth and skeleton information.",
-        "es": "Investigación desarrollada durante mi doctorado en la Universidade Federal de Ouro Preto, Brasil. LIBRAS-UFOP reúne señas visualmente similares mediante datos sincronizados RGB, profundidad y esqueleto."
+        "en": "Doctoral research at Universidade Federal de Ouro Preto on minimal pairs in Brazilian Sign Language. The LIBRAS-UFOP dataset provides synchronized RGB, depth and skeleton recordings.",
+        "es": "Investigación doctoral en la Universidade Federal de Ouro Preto sobre pares mínimos en Libras. LIBRAS-UFOP ofrece registros sincronizados RGB, profundidad y esqueleto."
       },
       "problem": {
         "en": "Sign-language benchmarks often contain easily distinguishable signs or omit full multimodal recordings, limiting the evaluation of fine-grained recognition.",
@@ -220,15 +220,15 @@ window.RESEARCH={
       "year": "2025",
       "category": "Brazilian Sign Language · Collaboration",
       "role": "Author",
-      "image": "fig-bsl.webp",
+      "image": "facial-bsl-expressions.webp",
       "group": "collaborative",
       "title": {
         "en": "Facial expression recognition in Brazilian Sign Language",
         "es": "Reconocimiento de expresiones faciales en lengua de señas brasileña"
       },
       "summary": {
-        "en": "A subsequent scientific collaboration on facial-expression recognition in Brazilian Sign Language. Facial-BSL combines RGB and depth recordings with a two-stream Swin Transformer using RGB images and facial texture maps.",
-        "es": "Colaboración científica posterior sobre reconocimiento de expresiones faciales en Libras. Facial-BSL combina registros RGB y profundidad con un Swin Transformer de dos flujos que utiliza imágenes RGB y mapas de textura facial."
+        "en": "Facial expression recognition in Brazilian Sign Language using the Facial-BSL RGB-D dataset and a two-stream Swin Transformer integrating facial appearance and motion texture.",
+        "es": "Reconocimiento de expresiones faciales en lengua de señas brasileña mediante Facial-BSL (RGB-D) y un Swin Transformer de dos flujos que integra apariencia facial y textura de movimiento."
       },
       "problem": {
         "en": "Non-manual facial elements are essential to sign-language meaning but frequently omitted by recognition models.",
@@ -263,7 +263,7 @@ window.RESEARCH={
       "year": "2025–2026",
       "category": "Educational technology",
       "role": "CoI",
-      "image": "stem.svg",
+      "image": "stemplay-home.webp",
       "title": {
         "en": "STEM_Play · Career exploration",
         "es": "STEM_Play · orientación vocacional"
@@ -340,7 +340,7 @@ window.RESEARCH={
       "year": "2025-2026",
       "category": "Environmental AI",
       "role": "PI",
-      "image": "bats.svg",
+      "image": "desmodus-app.webp",
       "title": {
         "en": "Thermal vision for wildlife monitoring",
         "es": "Visión térmica para monitoreo de fauna"
@@ -1298,7 +1298,7 @@ window.RESEARCH={
       "id": "libras",
       "name": "LIBRAS-UFOP",
       "kind": "RGB-D",
-      "image": "fig-libras.webp",
+      "image": "libras-sequence.webp",
       "status": "paper",
       "count": "3,040 sequences",
       "license": "Verify on Zenodo",
@@ -1314,7 +1314,7 @@ window.RESEARCH={
       "id": "bsl",
       "name": "Facial-BSL",
       "kind": "RGB-D",
-      "image": "fig-bsl.webp",
+      "image": "facial-bsl-expressions.webp",
       "status": "paper",
       "count": "8 classes",
       "license": "Verify on Zenodo",
@@ -1472,7 +1472,14 @@ window.RESEARCH={
     "fig-libras.webp": "Research figure from the cited publication",
     "fig-fer.webp": "Research figure from the cited publication",
     "fig-mask.webp": "Research figure from the cited publication",
-    "fig-contact.webp": "Research figure from the cited publication"
+    "fig-contact.webp": "Research figure from the cited publication",
+    "signoperu-web.webp": "Research image supplied by the author",
+    "signoperu-recognition.webp": "Research image supplied by the author",
+    "signoperu-vr.webp": "Research image supplied by the author",
+    "stemplay-home.webp": "Research image supplied by the author",
+    "libras-sequence.webp": "Research image supplied by the author",
+    "facial-bsl-expressions.webp": "Figure 3, Ramirez-Cerna et al., 2025",
+    "desmodus-app.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "7.0"
+  "editorialVersion": "8.0"
 };

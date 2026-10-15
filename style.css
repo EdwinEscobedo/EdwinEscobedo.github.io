@@ -26,3 +26,24 @@
 @media(max-width:1040px){.line-grid.student-preview{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-v7{gap:26px}.research-feature{min-height:340px}.feature-image{min-height:340px}.followup-card{grid-template-columns:270px 1fr}}
 @media(max-width:760px){.hero-v7{grid-template-columns:1fr;padding:51px 0 64px;min-height:0}.hero-v7 .hero-content h1{font-size:clamp(39px,8vw,56px)}.hero-v7-visual{max-height:350px}.hero-v7-visual .hero-project-image{height:235px}.hero-v7 .line-jump{margin-top:24px}.research-feature{grid-template-columns:1fr}.feature-image{order:-1;min-height:230px;height:230px}.feature-copy{padding:24px}.feature-copy h3{font-size:28px}.research-output{grid-template-columns:1fr}.research-output>div>.visual{height:220px}.followup-card{grid-template-columns:1fr;gap:10px}.followup-card>a>.visual{height:220px}.followup-card>div{padding:10px 12px 16px}.continuation{flex-direction:column;gap:7px}.line-grid,.line-grid.student-preview{grid-template-columns:1fr}.signo-grid{grid-template-columns:1fr}.priority-section .section-head h2,.section#libras h2,.section#stemplay h2{font-size:36px}.line-grid.student-preview .card-image{height:205px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* V8 — single LIBRAS programme with two peer research studies. */
+.libras-section .section-head h2{font-size:clamp(36px,4.1vw,60px)}
+.libras-section .section-head{margin-bottom:23px}
+.libras-studies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:stretch}
+.libras-study{border:1px solid var(--border);border-radius:var(--radius);background:var(--card);overflow:hidden;min-width:0;display:flex;flex-direction:column;transition:border-color .2s ease,transform .2s ease}
+.libras-study:hover{border-color:var(--accent);transform:translateY(-2px)}
+.libras-study-visual{display:block;height:245px;overflow:hidden;background:#0d2033}
+.libras-study-visual .visual{height:100%;background:linear-gradient(125deg,#143b4e,#10213e)}
+.libras-study-visual .visual img{object-fit:contain;object-position:center}
+.libras-study-body{display:flex;flex-direction:column;flex:1;gap:8px;padding:24px 25px 25px}
+.libras-study-meta{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.libras-study-year{font-size:12px;color:var(--faint);font-weight:700;white-space:nowrap}
+.libras-study h3{font-family:Manrope,sans-serif;font-size:clamp(21px,2.1vw,27px);line-height:1.27;letter-spacing:-.03em;margin:9px 0 0}
+.libras-study h3 a:hover{color:var(--accent)}
+.libras-study-body>p{font-size:14px;line-height:1.75;color:var(--muted);margin:0}
+.libras-study .libras-study-metrics{color:var(--accent);font-weight:700;font-size:12px;letter-spacing:.015em;margin-top:4px}
+.libras-study .actions{margin-top:auto;padding-top:12px;display:flex;flex-wrap:wrap;gap:10px}
+.libras-study .button{font-size:12px;padding:10px 13px;white-space:normal}
+@media(max-width:820px){.libras-study-visual{height:205px}.libras-study-body{padding:20px}.libras-study .actions{gap:6px}}
+@media(max-width:650px){.libras-studies{grid-template-columns:1fr}.libras-study-visual{height:215px}.libras-study-body{padding:20px 22px 24px}}

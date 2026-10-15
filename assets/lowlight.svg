@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Conceptual low-light image enhancement illustration">
+<defs><linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b1530"/><stop offset="1" stop-color="#253b57"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#36588b"/><stop offset="1" stop-color="#8c8ed6"/></linearGradient></defs>
+<rect width="960" height="640" fill="#101a34"/><rect x="0" width="465" height="640" fill="url(#a)"/><rect x="495" width="465" height="640" fill="url(#b)"/>
+<g fill="#0b1226"><path d="M0 310h105v-70h55v70h100v-135h72v135h133v330H0z"/><path d="M495 310h90v-70h55v70h100v-135h72v135h148v330H495z"/></g>
+<path d="M0 550l180-65 120 65 165-60M495 550l190-65 120 65 155-60" fill="none" stroke="#567399" stroke-width="9"/>
+<g fill="#090f22"><circle cx="233" cy="320" r="28"/><path d="M214 355h40l18 129-22 35h-13l-15-42-13 42h-15l-12-37z"/><circle cx="733" cy="320" r="28"/><path d="M714 355h40l18 129-22 35h-13l-15-42-13 42h-15l-12-37z"/></g>
+<g stroke="#7be8f8" fill="none" stroke-width="7"><rect x="671" y="276" width="125" height="252" rx="12" stroke-dasharray="18 10"/><path d="M471 310h18m-8-8l8 8-8 8"/></g>
+<g font-family="Arial, sans-serif" font-size="27" font-weight="700"><text x="34" y="58" fill="#95b2d5">LOW LIGHT</text><text x="529" y="58" fill="#9ff5f0">ENHANCED</text></g>
+<g fill="#74ddf8"><circle cx="705" cy="319" r="5"/><circle cx="757" cy="319" r="5"/><circle cx="734" cy="436" r="5"/></g>
+</svg>

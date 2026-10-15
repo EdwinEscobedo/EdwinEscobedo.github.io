@@ -1,48 +1,43 @@
-# Edwin Escobedo — Personal Academic Website (prototype v1)
+# Edwin Escobedo — academic research website
 
-A bilingual (ES/EN), responsive, animated academic research portfolio ready for GitHub Pages. No build tools required.
+Source for **https://edwinescobedo.github.io**. Hosted as a static GitHub Pages website in the `main` branch.
 
-## Deploy
+## Site structure
 
-1. On GitHub, create a **public** repository named `EdwinEscobedo.github.io`.
-2. Upload `index.html` and `site.js` to the root of the default branch (`main`).
-3. In **Settings → Pages**, choose **Deploy from a branch**, `main`, `/ (root)`.
-4. Visit https://edwinescobedo.github.io after deployment.
+- `index.html` + `site.js`: original responsive bilingual portfolio, publications, career, teaching and project overview.
+- `site-v3.js` + `site-v3.css`: scientific dataset catalog, three verified research phases of **SignoPerú** (2024–2027), featured **STEM_Play** project, visual illustrations, contact emails and responsive design.
+- `datasets.html`: independent searchable/filterable catalog, with real records, access notes and links to Mendeley Data / Zenodo.
+- `docencia.html`: independent teaching and mentorship page referencing CTI Vitae.
+- `site-core.css`, `site-pages.css`, `site-pages.js`: styling and bilingual user interface for standalone pages.
+- `assets/*.svg`: *illustrative* scientific thumbnails; not original photographs or actual project data.
 
-## Edit content
+## Editing
 
-- `site.js`: `research`, `projects`, `datasets`, `pubs`, and translation object `t`.
-- `index.html`: structure, CSS colors, page sections, hero and social links.
-- Research and project detail panels open when visitors click a card.
-- Dataset filters and ES/EN switch work locally without a backend.
+Edit `site-v3.js` for current dataset records, English and Spanish explanations and SignoPerú project stages. Edit `site-pages.js` when updating public teaching/thesis records. Users can select Spanish/English and light/dark theme; selections persist via browser local storage when available.
 
-## Verification / editorial notes
+## Source and access notes
 
-- This is a first editorial and visual prototype, **not yet a complete verified CV**.
-- Publication titles, role and CRIS counts were checked against the public CRIS Ulima profile (October 2026).
-- Most publication cards currently link to the researcher's **CRIS profile**, not an individual article record. Replace with verified article-level DOI/record links.
-- Facial-BSL DOI links to an associated scientific article, **not necessarily the dataset download**. Confirm the exact public dataset landing page and license before labeling it as downloadable.
-- CHINTEXDB-PERU28 currently links to the CRIS profile, not directly to dataset files.
-- SignoPerú LSP and breast thermography dataset entries are placeholders with no download links until availability and permissions are verified.
-- Project cards use abstract SVG graphics; **no real project photos or personal portrait** are included. Add approved media later.
-- Teaching topics are not presented as confirmed courses.
-- Research and prototype descriptions are explanatory summaries, not validated performance claims.
-- The website is personal and independent; no University of Lima logo or official branding is used.
-- Use only images/videos you own or are licensed/authorized to publish, and respect participants' privacy.
+- SignoPerú: the program consists of distinct CRIS-reported projects in 2024–2025, 2025–2026 (minimal pairs) and 2026–2027 (VR). They are presented as connected stages but are **not** conflated with the Brazilian Facial-BSL dataset.
+- `SIGNO-PERU-ISO`: public Zenodo record with **restricted** files. Researchers must follow the listed Data Usage Agreement. Never label this as freely downloadable.
+- `CHINTEXDB-PERU28`: published dataset in Mendeley Data, DOI 10.17632/7vb89k93jn.3.
+- `PeruFoodNet`: published dataset in Mendeley Data, DOI 10.17632/hxhbbm497d.3.
+- `Facial-BSL`: Brazilian Sign Language research; public dataset landing link still awaits verification.
+- Breast thermography data: availability and release permissions not verified. Do not publish private patient information.
+- Scientific publications are linked by DOI or bibliographic records and are not mirrored on this personal website.
+- STEM_Play product link points to https://stemplay.ulima.edu.pe/stem/ (provided by website owner), with a separate official CRIS project record.
+- Illustrations are **synthetic SVG artwork for navigation**, not real dataset samples or authentic screenshots of the research projects. Replace them with approved images and videos when available.
+- Contact email addresses, supplied by owner: `eescobed@ulima.edu.pe` and `edu.escobedo88@gmail.com`.
+- Researcher portrait is fetched from CRIS Ulima, with GitHub profile avatar fallback. A photo supplied directly by the website owner can be stored locally for resilience; the current remote assets might be blocked by their hosts.
+- This is an independent **personal** academic website, not an official institutional website.
 
-## Public sources
+## External references
 
-- https://cris.ulima.edu.pe/es/persons/edwin-jonathan-escobedo-cardenas/
-- https://github.com/EdwinEscobedo
-- https://orcid.org/0000-0003-2034-513X
-- https://scholar.google.com/citations?user=PK8d0PkAAAAJ
+- Personal profile: https://cris.ulima.edu.pe/es/persons/edwin-jonathan-escobedo-cardenas/
+- CTI Vitae: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=162198
+- SignoPerú product: https://signoperu.ulima.edu.pe/signo
+- STEM_Play product: https://stemplay.ulima.edu.pe/stem/
+- Datasets: https://zenodo.org/records/18990737 , https://data.mendeley.com/datasets/7vb89k93jn/3 , https://data.mendeley.com/datasets/hxhbbm497d/3
 
-## Version 2 — bilingual profile and theme
+## Deployment
 
-- The header provides **Spanish/English** and **Light/Dark** switches; choices are stored locally in the browser.
-- The hero uses the profile photograph published by **CRIS Ulima** (`EEscobedo.jpg`), falling back to the authenticated account's GitHub avatar if the remote image does not load. No generated or unrelated portrait is used.
-- Education, selected teaching posts and thesis supervision entries are based on the public [CTI Vitae record](https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=162198) (updated 5 October 2026). Personal data unnecessary for the portfolio is intentionally omitted.
-- Publications link to their verified DOI records instead of storing publisher PDFs in the repository.
-- Source material: [CRIS Ulima](https://cris.ulima.edu.pe/es/persons/edwin-jonathan-escobedo-cardenas/) and CTI Vitae. This site is independent and not an official Universidad de Lima site.
-
-To add new records, edit `site.js`: `ctiDegrees`, `ctiExperience`, `ctiTeaching`, `ctiTheses`, `research`, `datasets`, and `pubs`.
+From GitHub → Settings → Pages, use **Deploy from a branch**, `main`, `/ (root)`. Changes take a few minutes to appear.

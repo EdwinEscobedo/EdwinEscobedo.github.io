@@ -36,3 +36,13 @@ A bilingual (ES/EN), responsive, animated academic research portfolio ready for 
 - https://github.com/EdwinEscobedo
 - https://orcid.org/0000-0003-2034-513X
 - https://scholar.google.com/citations?user=PK8d0PkAAAAJ
+
+## Version 2 — bilingual profile and theme
+
+- The header provides **Spanish/English** and **Light/Dark** switches; choices are stored locally in the browser.
+- The hero uses the profile photograph published by **CRIS Ulima** (`EEscobedo.jpg`), falling back to the authenticated account's GitHub avatar if the remote image does not load. No generated or unrelated portrait is used.
+- Education, selected teaching posts and thesis supervision entries are based on the public [CTI Vitae record](https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=162198) (updated 5 October 2026). Personal data unnecessary for the portfolio is intentionally omitted.
+- Publications link to their verified DOI records instead of storing publisher PDFs in the repository.
+- Source material: [CRIS Ulima](https://cris.ulima.edu.pe/es/persons/edwin-jonathan-escobedo-cardenas/) and CTI Vitae. This site is independent and not an official Universidad de Lima site.
+
+To add new records, edit `site.js`: `ctiDegrees`, `ctiExperience`, `ctiTeaching`, `ctiTheses`, `research`, `datasets`, and `pubs`.

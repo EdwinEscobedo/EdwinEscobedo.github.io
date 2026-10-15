@@ -1,31 +1,28 @@
-# Edwin Escobedo — Academic Research Portfolio
+# Edwin Escobedo — Academic Research Portfolio V7
 
-Personal, bilingual website for documenting research projects, scientific publications, datasets, research with students, and selected teaching activities.
+A bilingual, responsive academic research website organized by **research lines**, not by CV entries.
 
-## Site structure
+## Editorial order
 
-| Page | Purpose |
-| --- | --- |
-| `index.html` | Selected research, the three SignoPerú projects, student research and datasets |
-| `investigaciones.html` | Searchable catalog of projects and research outputs |
-| `proyecto.html?id=...` | Research details: problem, method, findings, collaborators, publications and sources |
-| `estudiantes.html` | Selected research with students and documented thesis advising |
-| `datasets.html` | Dataset metadata, access status and original repository links |
-| `publicaciones.html` | Selected papers with direct DOI links |
-| `docencia.html` | Concise teaching record and advising |
+1. **SignoPerú**: three successive institutional research projects (2024–2027), with related Peruvian Sign Language scientific outputs.
+2. **LIBRAS-UFOP**: multimodal dataset developed during the PhD at Universidade Federal de Ouro Preto (Brazil). Facial-BSL is described separately as a subsequent international research collaboration.
+3. **STEM_Play**: serious-game research and evaluation in secondary education.
+4. Other institutional projects: mammary thermography, wildlife thermal imaging and CHINTEXDB-PERU28, a scientific collaboration.
+5. Scientific research with students: individual paper records, names, methodological summaries, DOI links and datasets or source code when provided.
 
-The site runs on GitHub Pages without a build step. `content.js` stores bilingual research records; `app.js` handles rendering, language/theme controls and search; `style.css` contains the responsive dark/light design.
+The pages are `index.html`, `investigaciones.html`, `proyecto.html?id=...`, `estudiantes.html`, `datasets.html`, `publicaciones.html`, `docencia.html`.
 
-## Updating datasets and images
+Research and dataset metadata live in `content.js`; layout and site interactions are in `app.js` and `style.css`. No framework, bundler or server application is needed. Deploy to GitHub Pages from the `main` branch, root directory.
 
-Images in `assets/` are **illustrations, not original images from research datasets or research results**. Replace the relevant file with an approved screenshot/photograph (prefer `.webp`, optimized for the web) and update that item's `image` field in `content.js`. Only upload material authorized for public distribution. For datasets with restricted access, keep the repository URL and its actual access status instead of advertising a public download.
+## Source and reuse notes
 
-## Editorial policy
+- All figures named `fig-*.webp` are reduced-resolution images extracted from user-supplied scientific manuscripts. They are credited in interface captions as research figures. Their public reuse must comply with the original publisher license and consent requirements. All illustrations in `.svg` are conceptual drawings, and explicitly labeled as such.
+- For image datasets requiring participants' consent, the figure selection avoids presenting raw participant imagery as open image assets unless cleared.
+- Project descriptions are summaries of supplied papers, project records and repository links, not substitutes for the original publications.
+- DOI links lead to the publisher, without uploading published-paper PDFs. External third-party datasets are marked as third-party datasets. Zenodo items with unverified file accessibility link to the record rather than offering false direct downloads.
+- **Caracol:** a reliable project title, supporting source and public URL were not present in the materials reviewed. No research entry or scientific result was invented for it. This can be added once the source is provided.
+- The website is independent from Universidad de Lima and is not an official institutional publication.
 
-Research descriptions use formal academic language; papers link to publishers or DOI records rather than copying PDFs. Project roles and dates should be checked against CRIS Ulima, and advising records against CTI Vitae. Collaborations are distinguished from supervised theses. This is an independent personal website, not an official site of Universidad de Lima.
+## Local testing
 
-## Publication
-
-GitHub Pages: branch `main`, folder `/ (root)` at https://edwinescobedo.github.io/.
-
-As of October 2026, this version uses an English default and an initial dark theme. User preferences persist using browser local storage. The optional light theme and Spanish interface can be selected in the header.
+Open `index.html`, or serve with `python -m http.server 8080` in this directory. Use the EN/ES language toggle and light/dark theme toggle. The latter persists in browser storage.

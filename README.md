@@ -1,31 +1,31 @@
-# Edwin Escobedo | Research Showcase (V4)
+# Edwin Escobedo — Academic Research Portfolio
 
-Personal bilingual, accessible, research-first portfolio on GitHub Pages.
+Personal, bilingual website for documenting research projects, scientific publications, datasets, research with students, and selected teaching activities.
 
-## Organization
+## Site structure
 
-- `index.html`: Home. Research projects are primary; static small portrait.
-- `investigaciones.html`: Searchable list of official research projects and linked research outputs.
-- `proyecto.html?id=...`: Case study with problem, methods, status, collaborators, resources and related papers.
-- `estudiantes.html`: Verified selected mentoring-linked research and advisory listing from CTI Vitae.
-- `datasets.html`: Dataset types and *actual* access conditions.
-- `publicaciones.html`: Publisher DOI links only.
-- `docencia.html`: Short teaching summary based on CTI Vitae.
-- `content.js`: Bilingual content, links and research records. Edit to add material.
-- `app.js`: Accessible UI renderer, theme/language toggles, search and filters.
-- `style.css`: Responsive editorial research design, light and dark theme.
-- `assets/*.svg`: **Illustrative placeholders**, NOT actual screenshots or dataset images.
+| Page | Purpose |
+| --- | --- |
+| `index.html` | Selected research, the three SignoPerú projects, student research and datasets |
+| `investigaciones.html` | Searchable catalog of projects and research outputs |
+| `proyecto.html?id=...` | Research details: problem, method, findings, collaborators, publications and sources |
+| `estudiantes.html` | Selected research with students and documented thesis advising |
+| `datasets.html` | Dataset metadata, access status and original repository links |
+| `publicaciones.html` | Selected papers with direct DOI links |
+| `docencia.html` | Concise teaching record and advising |
 
-## Updating research images
+The site runs on GitHub Pages without a build step. `content.js` stores bilingual research records; `app.js` handles rendering, language/theme controls and search; `style.css` contains the responsive dark/light design.
 
-Replace relevant file under `assets/` or change each project's `image` in `content.js` to an approved image placed in `assets/` (e.g. `signo-experiment.webp`). Do not publish personal/sensitive research images without clearance.
+## Updating datasets and images
 
-## Source / disclosure
+Images in `assets/` are **illustrations, not original images from research datasets or research results**. Replace the relevant file with an approved screenshot/photograph (prefer `.webp`, optimized for the web) and update that item's `image` field in `content.js`. Only upload material authorized for public distribution. For datasets with restricted access, keep the repository URL and its actual access status instead of advertising a public download.
 
-CRIS Ulima for registered project dates, roles and participants; CTI Vitae for educational background, thesis advisories, and selected publication records. External project and dataset URLs are explicitly defined in `content.js`.
+## Editorial policy
 
-Website is an independent personal research portfolio. Project affiliation does not imply institutional website ownership.
+Research descriptions use formal academic language; papers link to publishers or DOI records rather than copying PDFs. Project roles and dates should be checked against CRIS Ulima, and advising records against CTI Vitae. Collaborations are distinguished from supervised theses. This is an independent personal website, not an official site of Universidad de Lima.
 
-## Deployment
+## Publication
 
-GitHub Pages: `main` branch, `/ (root)`. The home is available at `https://edwinescobedo.github.io/` after Pages deployment.
+GitHub Pages: branch `main`, folder `/ (root)` at https://edwinescobedo.github.io/.
+
+As of October 2026, this version uses an English default and an initial dark theme. User preferences persist using browser local storage. The optional light theme and Spanish interface can be selected in the header.

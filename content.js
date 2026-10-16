@@ -5,13 +5,14 @@ window.RESEARCH={
     "fallback": "https://avatars.githubusercontent.com/u/30306144?v=4",
     "cti": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=162198",
     "cris": "https://cris.ulima.edu.pe/es/persons/edwin-jonathan-escobedo-cardenas/",
-    "scholar": "https://scholar.google.com/citations?user=PK8d0PkAAAAJ",
+    "scholar": "https://scholar.google.com/citations?user=PK8d0PkAAAAJ&hl=es",
     "github": "https://github.com/EdwinEscobedo",
     "orcid": "https://orcid.org/0000-0003-2034-513X",
     "contact": [
       "eescobed@ulima.edu.pe",
       "edu.escobedo88@gmail.com"
-    ]
+    ],
+    "linkedin": "https://pe.linkedin.com/in/edwin-escobedo"
   },
   "projects": [
     {

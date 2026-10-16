@@ -77,7 +77,7 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "signoperu-recognition.webp",
+      "image": "signoperu-text-to-sign.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
@@ -115,17 +115,10 @@ window.RESEARCH={
       "line": "signoperu",
       "gallery": [
         {
-          "image": "signoperu-recognition.webp",
-          "label": {
-            "en": "Peruvian Sign Language recognition with facial and hand landmarks, author-provided project example",
-            "es": "Reconocimiento de Lengua de Señas Peruana con puntos faciales y de manos; imagen del proyecto proporcionada por el autor"
-          }
-        },
-        {
           "image": "signoperu-text-to-sign.webp",
           "label": {
-            "en": "Text-to-sign tutorial from the SignoPeru application",
-            "es": "Tutorial Texto a Señas de la aplicación SignoPerú"
+            "en": "Text-to-sign tutorial, actual SignoPeru platform screenshot (not a dataset recording)",
+            "es": "Tutorial Texto a Señas de la plataforma SignoPerú (no es una grabación del dataset)"
           }
         }
       ]
@@ -1373,7 +1366,7 @@ window.RESEARCH={
       "id": "iso",
       "name": "SIGNO-PERU-ISO",
       "kind": "RGB-D",
-      "image": "signoperu-recognition.webp",
+      "image": "signoperu-text-to-sign.webp",
       "status": "restricted",
       "count": "18,179",
       "license": "Access by request / DUA",
@@ -1549,5 +1542,5 @@ window.RESEARCH={
     "signoperu-text-to-sign.webp": "Research image supplied by the author",
     "signoperu-vr-learning.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "10.2"
+  "editorialVersion": "11.1"
 };

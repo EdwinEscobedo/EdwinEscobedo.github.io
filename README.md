@@ -1,4 +1,4 @@
-# Edwin Escobedo — Academic Research Portfolio V10.1
+# Edwin Escobedo — Academic Research Portfolio V10.2
 
 A bilingual, responsive academic research website organized by **research lines**, not by CV entries.
 
@@ -46,3 +46,7 @@ LIBRAS combines the PhD dataset and Facial-BSL as equally weighted cards under o
 - **LIBRAS-UFOP** is the dataset from doctoral research at UFOP; the *Expert Systems with Applications* paper `10.1016/j.eswa.2020.114179` documents this work, not an additional standalone dataset. Facial-BSL is grouped with Brazilian Sign Language research and has its own record.
 - The approved **Other scientific projects** remain breast thermography, wildlife monitoring (Desmodus), and CHINTEXDB-PERU28. **Research with students** remains separate.
 - The independent SIGNO-PERU-FER and surgical-mask facial recognition datasets are retained because they have distinct repository records. External datasets used only for experimentation are referenced by the corresponding research projects, not duplicated as original publications.
+
+## Scientific image thumbnails (V10.2)
+
+The main project cards and student-research images use **real cropped scientific figures** from the original author-supplied papers: fraud (CatBoost confusion matrix, Figure 4), contact-channel recommendation (methodological flow, Figure 1), visualization recommendation (BiDA4Sales inputs/outputs, Figure 1) and CAPTCHA (FGSM perturbation examples, Figure 3). Additional original figures remain in each project's gallery. The images are displayed in full without decorative cropping; no synthetic figure is presented as an experimental result.

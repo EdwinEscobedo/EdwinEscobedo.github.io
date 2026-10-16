@@ -65,3 +65,9 @@
 .visual figcaption{opacity:0;transform:translateY(5px);pointer-events:none;transition:opacity .18s ease,transform .18s ease}
 .visual:hover figcaption,.visual:focus-within figcaption{opacity:1;transform:translateY(0)}
 @media (hover:none){.visual figcaption{display:none}}
+
+/* Preserve complete figures from source research articles rather than cropping them into decorative thumbnails. */
+.visual.scientific-figure{background:#f2f5f9}
+.visual.scientific-figure img{object-fit:contain;background:#f2f5f9;padding:12px}
+.card-image:hover .visual.scientific-figure img{transform:none}
+.visual.scientific-figure figcaption{max-width:calc(100% - 20px);background:#091527df;color:#f5f9ff}

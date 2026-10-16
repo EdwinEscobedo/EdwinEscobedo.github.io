@@ -30,3 +30,12 @@ Open `index.html`, or serve with `python -m http.server 8080` in this directory.
 ## V8 layout
 
 LIBRAS combines the PhD dataset and Facial-BSL as equally weighted cards under one thematic heading. There is no redundant programme explanation between the two cards. The project and dataset index pages keep their independent records and DOI links.
+
+
+## Version 9 — dataset audit and source imagery
+
+- LIBRAS-UFOP uses cropped Figure 4 and Figure 5 from the original UFOP doctoral paper, not examples from SIGNO-PERU.
+- Breast thermography now uses frames captured from the research team’s supplied mobile-app demonstration video. The application is an investigational prototype, not a clinically validated diagnostic device.
+- Dataset index lists eight authored or collaboratively developed datasets with identifiable records/repositories. External datasets used in credit card fraud and customer contact studies, an unverified PhishingLong download, and internal thermography research data are **not** listed as independently published datasets. Their use remains documented in the relevant research cases.
+- Fake News is represented by its dataset entry and its paper in Publications, rather than a duplicate project card.
+- The LIBRAS and thermography detail pages have source-image galleries.

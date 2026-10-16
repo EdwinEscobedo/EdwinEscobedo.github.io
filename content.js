@@ -1,4 +1,4 @@
-/* Research information from manuscripts, repository records and supplied project context. */
+/* Research records grounded in publications, repositories and author-supplied materials. */
 window.RESEARCH={
   "profile": {
     "photo": "https://cris.ulima.edu.pe/files-asset/40822754/EEscobedo.jpg?f=jpg&w=640",
@@ -177,7 +177,7 @@ window.RESEARCH={
       "year": "2021",
       "category": "Doctoral research · UFOP",
       "role": "Author",
-      "image": "libras-sequence.webp",
+      "image": "libras-ufop-minimal-pairs.webp",
       "group": "doctoral",
       "title": {
         "en": "LIBRAS-UFOP: minimal-pair sign-language dataset",
@@ -213,7 +213,23 @@ window.RESEARCH={
       "papers": [
         "libras"
       ],
-      "line": "libras"
+      "line": "libras",
+      "gallery": [
+        {
+          "image": "libras-ufop-rgb-depth-skeleton.webp",
+          "label": {
+            "en": "Multimodal samples (RGB, depth and skeleton). Figure 4, doctoral research article.",
+            "es": "Muestras multimodales (RGB, profundidad y esqueleto). Figura 4 del artículo doctoral."
+          }
+        },
+        {
+          "image": "libras-ufop-minimal-pairs.webp",
+          "label": {
+            "en": "Examples of minimal pairs in Brazilian Sign Language. Figure 5, doctoral research article.",
+            "es": "Ejemplos de pares mínimos en Libras. Figura 5 del artículo doctoral."
+          }
+        }
+      ]
     },
     {
       "id": "bsl",
@@ -303,26 +319,26 @@ window.RESEARCH={
       "year": "2026-2027",
       "category": "Medical AI",
       "role": "CoI",
-      "image": "thermal.svg",
+      "image": "breast-thermography-app.webp",
       "title": {
         "en": "AI-assisted breast thermography",
         "es": "Termografía mamaria asistida por IA"
       },
       "summary": {
-        "en": "Research on thermal-image processing, regions of interest and deep learning for a mobile research prototype.",
-        "es": "Procesamiento de imágenes térmicas mamarias, análisis de regiones de interés y aprendizaje profundo para un prototipo móvil."
+        "en": "Experimental mobile prototype for breast thermography: image processing, region-of-interest analysis, deep-learning classification and visual explanation of model predictions.",
+        "es": "Prototipo móvil experimental de termografía mamaria que integra procesamiento de imágenes, análisis de regiones de interés, clasificación y visualización de la interpretación del modelo."
       },
       "problem": {
         "en": "Investigating whether non-invasive thermal imaging may support complementary analysis.",
         "es": "Investigar si la imagen térmica no invasiva puede apoyar el análisis complementario."
       },
       "method": {
-        "en": "Segmentation, computer vision, model evaluation and a mobile prototype.",
-        "es": "Segmentación, visión computacional, evaluación y un prototipo móvil."
+        "en": "Thermal image preprocessing, region-of-interest analysis, classification model evaluation, visual attribution maps and reconstruction views within a mobile research prototype.",
+        "es": "Preprocesamiento de imágenes térmicas, análisis de regiones de interés, evaluación de clasificadores, mapas de atribución y visualización de reconstrucciones en un prototipo móvil de investigación."
       },
       "result": {
-        "en": "Ongoing experimental research, not a clinically validated diagnostic tool.",
-        "es": "Investigación experimental en curso, no un sistema clínico validado."
+        "en": "A functional mobile research prototype with case-review screens and visual explanations. Investigational use only; not a clinically validated diagnostic device.",
+        "es": "Prototipo móvil funcional con revisión de casos y explicaciones visuales. Uso experimental; no constituye un dispositivo diagnóstico clínicamente validado."
       },
       "team": "Lourdes Ramírez Cerna; Luis Ángel Pumayucra Chauca; external collaborators",
       "links": [
@@ -333,7 +349,23 @@ window.RESEARCH={
       ],
       "papers": [],
       "line": "other",
-      "group": "institutional"
+      "group": "institutional",
+      "gallery": [
+        {
+          "image": "breast-thermography-app.webp",
+          "label": {
+            "en": "Mobile prototype: model attribution map and reconstructed views.",
+            "es": "Prototipo móvil: mapa de atribución del modelo y vistas reconstruidas."
+          }
+        },
+        {
+          "image": "breast-thermography-results.webp",
+          "label": {
+            "en": "Mobile prototype: processing and case-review interface.",
+            "es": "Prototipo móvil: interfaz de procesamiento y revisión de casos."
+          }
+        }
+      ]
     },
     {
       "id": "bats",
@@ -567,45 +599,6 @@ window.RESEARCH={
       ],
       "papers": [
         "channels"
-      ],
-      "line": "students"
-    },
-    {
-      "id": "fake",
-      "year": "2025",
-      "category": "Research with students",
-      "role": "Coauthor",
-      "image": "fig-fake.webp",
-      "group": "student",
-      "title": {
-        "en": "Spanish-language fake news detection",
-        "es": "Detección de noticias falsas en español"
-      },
-      "summary": {
-        "en": "Spanish-language misinformation classification using neural networks and transformer representations, supported by a dataset collected from digital news and social platforms.",
-        "es": "Clasificación de desinformación en español mediante redes neuronales y representaciones transformer, con un dataset elaborado a partir de prensa digital y plataformas sociales."
-      },
-      "problem": {
-        "en": "Limited real-world Spanish datasets hinder the comparison of fake-news classifiers.",
-        "es": "La falta de datos representativos en español dificulta comparar detectores de noticias falsas."
-      },
-      "method": {
-        "en": "Comparison of five text encoders and six classifiers, including GloVe, BART, XLNet, RoBERTa, LSTM, GRU and DNC.",
-        "es": "Comparación de cinco codificadores y seis clasificadores, entre ellos GloVe, BART, XLNet, RoBERTa, LSTM, GRU y DNC."
-      },
-      "result": {
-        "en": "GloVe-DNC achieved F1 0.97, accuracy 0.96 and AUC-ROC 0.98 on the study dataset.",
-        "es": "GloVe-DNC alcanzó F1 de 0,97, exactitud de 0,96 y AUC-ROC de 0,98 en los experimentos."
-      },
-      "team": "Fiorella Nina; Angelina Arana; Edwin Escobedo; Guillermo Dávila",
-      "links": [
-        [
-          "Dataset and code (GitHub)",
-          "https://github.com/fiorellaninaa/FakeNewsEspa-ol2024"
-        ]
-      ],
-      "papers": [
-        "fake"
       ],
       "line": "students"
     },
@@ -1298,16 +1291,16 @@ window.RESEARCH={
       "id": "libras",
       "name": "LIBRAS-UFOP",
       "kind": "RGB-D",
-      "image": "libras-sequence.webp",
-      "status": "paper",
+      "image": "libras-ufop-rgb-depth-skeleton.webp",
+      "status": "record",
       "count": "3,040 sequences",
       "license": "Verify on Zenodo",
       "url": "https://zenodo.org/records/23350484",
       "origin": "Doctoral research · Universidade Federal de Ouro Preto",
       "project": "libras",
       "description": {
-        "en": "56 minimal-pair sign classes from five signers with RGB, depth and skeleton modalities. Zenodo record supplied by author.",
-        "es": "56 clases de señas de pares mínimos de cinco signantes con RGB, profundidad y esqueletos. Ficha de Zenodo proporcionada por el autor."
+        "en": "Original LIBRAS-UFOP dataset from doctoral research: 56 signs, 3,040 sequences, five signers, recorded in RGB, depth and skeleton formats.",
+        "es": "Dataset LIBRAS-UFOP de la investigación doctoral: 56 señas, 3040 secuencias y cinco signantes; modalidades RGB, profundidad y esqueleto."
       }
     },
     {
@@ -1315,7 +1308,7 @@ window.RESEARCH={
       "name": "Facial-BSL",
       "kind": "RGB-D",
       "image": "facial-bsl-expressions.webp",
-      "status": "paper",
+      "status": "record",
       "count": "8 classes",
       "license": "Verify on Zenodo",
       "url": "https://zenodo.org/records/22865192",
@@ -1370,8 +1363,8 @@ window.RESEARCH={
       "origin": "Created with students",
       "project": "masked",
       "description": {
-        "en": "Study-created face image dataset for mask-occlusion recognition, linked to the institutional repository.",
-        "es": "Dataset de rostros con y sin mascarilla elaborado para el estudio y alojado en el repositorio institucional."
+        "en": "Face images with and without masks recorded for the ResNet-50, VGG-16, ViT and Swin Transformer comparison; public Universidad de Lima repository record.",
+        "es": "Imágenes faciales con y sin mascarilla para comparar ResNet-50, VGG-16, ViT y Swin Transformer; ficha en el repositorio de la Universidad de Lima."
       }
     },
     {
@@ -1386,72 +1379,8 @@ window.RESEARCH={
       "origin": "Created with students",
       "project": "fake",
       "description": {
-        "en": "Original Spanish real/fake news collection from online newspapers and social platforms; data and reproducibility resources hosted by its authors.",
-        "es": "Colección original de noticias verdaderas y falsas en español procedentes de prensa y redes sociales; recursos publicados en GitHub."
-      }
-    },
-    {
-      "id": "phishinglong",
-      "name": "PhishingLong",
-      "kind": "Tabular",
-      "image": "fig-phish.webp",
-      "status": "paper",
-      "count": "Study dataset",
-      "license": "No public data link",
-      "url": "https://doi.org/10.1145/3771678.3771683",
-      "origin": "Created with students",
-      "project": "phish",
-      "description": {
-        "en": "Dataset built by the PhishFind study from PhishTank and Majestic sources, with automated webpage feature extraction; the publication is linked, not a verified public data download.",
-        "es": "Dataset construido para PhishFind con fuentes PhishTank y Majestic y extracción automatizada de atributos; se enlaza al artículo, no a una descarga confirmada."
-      }
-    },
-    {
-      "id": "thermal",
-      "name": "Breast thermography research",
-      "kind": "Thermal",
-      "image": "thermal.svg",
-      "status": "pending",
-      "count": "R&D",
-      "license": "Pending",
-      "url": null,
-      "project": "thermal",
-      "description": {
-        "en": "Research data under evaluation; public release and authorizations have not been verified.",
-        "es": "Datos de investigación bajo evaluación; no se ha confirmado su publicación abierta."
-      },
-      "origin": "Research data · access not verified"
-    },
-    {
-      "id": "externalfraud",
-      "name": "Credit-card transactions and clickstream data",
-      "kind": "Tabular",
-      "image": "fig-fraud.webp",
-      "status": "public",
-      "count": "External data",
-      "license": "Third-party Kaggle",
-      "url": "https://www.kaggle.com/datasets/mohammadbolandraftar/my-dataset/data",
-      "origin": "Third-party dataset used in research",
-      "project": "fraud",
-      "description": {
-        "en": "Third-party simulated public data used to evaluate fraud detection. Not created by the research group.",
-        "es": "Datos públicos simulados de terceros utilizados en el estudio de fraude. No fueron creados por el equipo."
-      }
-    },
-    {
-      "id": "contactdata",
-      "name": "Social-media communication survey data",
-      "kind": "Tabular",
-      "image": "fig-contact.webp",
-      "status": "public",
-      "count": "External data",
-      "license": "CC BY 4.0",
-      "url": "https://data.mendeley.com/datasets/2s47yznh4k/1",
-      "origin": "Third-party dataset used in research",
-      "project": "contact",
-      "description": {
-        "en": "Third-party customer survey dataset used for contact-channel recommendation research.",
-        "es": "Dataset externo de encuesta utilizado para estudiar la recomendación de canales de contacto."
+        "en": "Research dataset of real and false Spanish-language news, with associated code and data documented in the authors’ GitHub repository.",
+        "es": "Dataset de noticias reales y falsas en español, con datos y código publicados por sus autores en GitHub."
       }
     }
   ],
@@ -1479,7 +1408,11 @@ window.RESEARCH={
     "stemplay-home.webp": "Research image supplied by the author",
     "libras-sequence.webp": "Research image supplied by the author",
     "facial-bsl-expressions.webp": "Figure 3, Ramirez-Cerna et al., 2025",
-    "desmodus-app.webp": "Research image supplied by the author"
+    "desmodus-app.webp": "Research image supplied by the author",
+    "libras-ufop-rgb-depth-skeleton.webp": "Original research paper, LIBRAS-UFOP (Figure 4)",
+    "libras-ufop-minimal-pairs.webp": "Original research paper, LIBRAS-UFOP (Figure 5)",
+    "breast-thermography-app.webp": "Research image supplied by the author",
+    "breast-thermography-results.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "8.0"
+  "editorialVersion": "9.0"
 };

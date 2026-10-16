@@ -135,3 +135,13 @@
  @keyframes portfolioEnter{from{opacity:0;transform:translateY(17px)}to{opacity:1;transform:translateY(0)}}
 }
 @media(max-width:650px){.heading-actions{justify-content:flex-start;margin-top:18px}.heading-actions .button{white-space:normal}}
+/* Compact academic and professional profile links below the homepage introduction */
+.profile-links{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:20px 0 0;padding:0}
+.profile-links a{display:inline-flex;align-items:center;gap:8px;padding:6px 10px 6px 6px;border:1px solid transparent;border-radius:12px;color:var(--muted);font-size:12px;font-weight:750;text-decoration:none;transition:background .2s,border-color .2s,color .2s,transform .2s}
+.profile-links a:hover{background:var(--surface);border-color:var(--border);color:var(--text);transform:translateY(-2px)}
+.profile-icon{width:31px;height:31px;display:grid;place-items:center;flex:0 0 31px;border-radius:9px;background:var(--surface);border:1px solid var(--border);color:var(--accent)}
+.profile-icon svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.profile-icon.orcid-mark{color:#a6ce39}.profile-icon.orcid-mark svg circle{fill:#a6ce39;stroke:#a6ce39}.profile-icon.orcid-mark svg path{stroke:#fff}
+:root[data-theme=light] .profile-links a:hover{background:#fff0e2;border-color:#e9cbb7;color:#643c29}
+:root[data-theme=light] .profile-icon{background:#fff0e2;border-color:#ecd5c2;color:#a94b24}
+@media(max-width:650px){.profile-links{gap:4px;margin-top:16px}.profile-links a{font-size:11px;padding-right:6px}.profile-icon{width:28px;height:28px;flex-basis:28px}}

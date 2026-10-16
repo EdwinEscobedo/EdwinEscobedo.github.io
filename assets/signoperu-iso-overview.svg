@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-label="SIGNO-PERU-ISO dataset technical overview: RGB, depth, skeleton, 18179 sequences, 17 signers, six semantic categories">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f3f9f8"/><stop offset="1" stop-color="#d7e8e5"/></linearGradient>
+ <linearGradient id="card" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eff6f5"/></linearGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M 34 0 L 0 0 0 34" fill="none" stroke="#83aba8" stroke-width=".8" opacity=".22"/></pattern>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="155%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#31615b" flood-opacity=".09"/></filter>
+</defs>
+<rect width="1200" height="660" fill="url(#bg)"/><rect width="1200" height="660" fill="url(#grid)"/>
+<rect x="35" y="32" width="1130" height="598" rx="28" fill="#ffffff" opacity=".68" stroke="#bad5d0" stroke-width="2"/>
+<rect x="66" y="59" width="13" height="55" rx="6" fill="#177c78"/>
+<text x="100" y="89" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#153941">SIGNO-PERU-ISO</text>
+<text x="100" y="115" font-family="Arial,sans-serif" font-size="17" font-weight="600" fill="#536e71" letter-spacing="2">MULTIMODAL DATASET</text>
+<rect x="875" y="65" width="250" height="46" rx="23" fill="#e4f1ee" stroke="#bad5d0"/>
+<text x="1000" y="94" fill="#246b67" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">AZURE KINECT DK</text>
+<g filter="url(#shadow)"><rect x="66" y="150" width="334" height="312" rx="22" fill="url(#card)" stroke="#c0d9d4"/><rect x="433" y="150" width="334" height="312" rx="22" fill="url(#card)" stroke="#c0d9d4"/><rect x="800" y="150" width="334" height="312" rx="22" fill="url(#card)" stroke="#c0d9d4"/></g>
+<!-- RGB camera: neutral sensor symbol, no depicted person or sample -->
+<rect x="153" y="201" width="160" height="135" rx="17" fill="#1f5057" stroke="#387982" stroke-width="7"/>
+<circle cx="233" cy="269" r="55" fill="#9fd6d0" stroke="#fff" stroke-width="7"/><circle cx="233" cy="269" r="35" fill="#2b6878"/><circle cx="233" cy="269" r="18" fill="#83d1c6"/><circle cx="291" cy="219" r="8" fill="#d5efea"/>
+<text x="233" y="379" text-anchor="middle" fill="#174e54" font-family="Arial,sans-serif" font-size="39" font-weight="800">RGB</text>
+<text x="233" y="411" text-anchor="middle" fill="#647b7d" font-family="Arial,sans-serif" font-size="20">Color frames</text>
+<!-- depth: stepped surfaces -->
+<path d="M 497 252 L 585 208 L 705 242 L 617 286 Z" fill="#bbe0dc" stroke="#3c7778" stroke-width="5"/>
+<path d="M 497 275 L 585 231 L 705 265 L 617 309 Z" fill="#91c5c0" stroke="#3c7778" stroke-width="5"/>
+<path d="M 497 298 L 585 254 L 705 288 L 617 332 Z" fill="#4e9b98" stroke="#3c7778" stroke-width="5"/>
+<text x="600" y="379" text-anchor="middle" fill="#174e54" font-family="Arial,sans-serif" font-size="39" font-weight="800">DEPTH</text>
+<text x="600" y="411" text-anchor="middle" fill="#647b7d" font-family="Arial,sans-serif" font-size="20">Spatial information</text>
+<!-- simplified skeleton topology icon, not a participant's recorded pose -->
+<g stroke="#318e8a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M 967 234 L 967 286 L 944 324 L 923 354 M 967 286 L 991 324 L 1012 354 M 967 248 L 920 260 L 895 298 M 967 248 L 1016 260 L 1040 298"/></g>
+<g fill="#eaf8f5" stroke="#177b78" stroke-width="6"><circle cx="967" cy="213" r="25"/><circle cx="967" cy="255" r="13"/><circle cx="967" cy="287" r="11"/><circle cx="920" cy="260" r="10"/><circle cx="1016" cy="260" r="10"/><circle cx="895" cy="298" r="10"/><circle cx="1040" cy="298" r="10"/><circle cx="944" cy="324" r="10"/><circle cx="991" cy="324" r="10"/></g>
+<text x="967" y="379" text-anchor="middle" fill="#174e54" font-family="Arial,sans-serif" font-size="36" font-weight="800">SKELETON</text>
+<text x="967" y="411" text-anchor="middle" fill="#647b7d" font-family="Arial,sans-serif" font-size="20">32 body joints</text>
+<g font-family="Arial,sans-serif" text-anchor="middle"><text x="234" y="533" fill="#155d5e" font-size="37" font-weight="800">18,179</text><text x="234" y="559" fill="#5d7778" font-size="19">RGB-D sequences</text><text x="600" y="533" fill="#155d5e" font-size="37" font-weight="800">17</text><text x="600" y="559" fill="#5d7778" font-size="19">native signers</text><text x="967" y="533" fill="#155d5e" font-size="37" font-weight="800">6</text><text x="967" y="559" fill="#5d7778" font-size="19">semantic categories</text></g>
+<g stroke="#b2cfcc" stroke-width="2"><path d="M 416 503 L 416 575"/><path d="M 782 503 L 782 575"/></g>
+<text x="599" y="609" text-anchor="middle" fill="#688282" font-family="Arial,sans-serif" font-size="15">Technical overview based on Zenodo metadata - not a dataset sample</text>
+</svg>

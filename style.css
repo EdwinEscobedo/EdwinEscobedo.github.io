@@ -72,156 +72,66 @@
 .card-image:hover .visual.scientific-figure img{transform:none}
 .visual.scientific-figure figcaption{max-width:calc(100% - 20px);background:#091527df;color:#f5f9ff}
 
-
-/* V11 | Editorial research portfolio: professional dual-theme design.
-   Only presentation changes. Content, assets, routes and controls are unchanged. */
-:root{
-  --bg:#0c1723;
-  --bg-soft:#111f2d;
-  --card:#152534;
-  --surface:#1b2d3d;
-  --surface2:#24394b;
-  --border:#314657;
-  --text:#edf3f5;
-  --muted:#b7c7cd;
-  --faint:#95aab5;
-  --accent:#83d1c6;
-  --accent-dark:#10272b;
-  --purple:#b2c3d4;
-  --shadow:0 16px 36px rgba(1,11,22,.27);
-  --radius:16px;
-  --border-hover:#75acae;
-  --primary:#86d0c5;
-  --primary-hover:#a4e2d9;
-  --primary-text:#0d2930;
-  --soft-accent:rgba(117,205,193,.10);
-}
+/* V12.2 | Restore expressive, animated navy dark theme; SignoPeru-inspired warm light palette */
 :root[data-theme=light]{
-  color-scheme:light;
-  --bg:#f7f9f7;
-  --bg-soft:#eef4f1;
-  --card:#ffffff;
-  --surface:#f1f6f3;
-  --surface2:#e5eeea;
-  --border:#d3e0dc;
-  --text:#1c3037;
-  --muted:#526770;
-  --faint:#697e86;
-  --accent:#146f71;
-  --accent-dark:#ffffff;
-  --purple:#5c7086;
-  --shadow:0 13px 32px rgba(22,63,63,.065);
-  --radius:16px;
-  --border-hover:#72a4a3;
-  --primary:#176d72;
-  --primary-hover:#105c61;
-  --primary-text:#ffffff;
-  --soft-accent:rgba(25,112,108,.075);
+ color-scheme:light;
+ --bg:#fff7ef;--bg-soft:#ffead9;--card:#fffdfb;
+ --surface:#fff0e2;--surface2:#ffe7d4;
+ --border:#ecd9ca;--text:#2e2018;--muted:#67554b;--faint:#826c60;
+ --accent:#ae491b;--accent-dark:#fff;--purple:#8e5489;
+ --shadow:0 15px 37px #70452b13;
 }
-::selection{background:color-mix(in srgb,var(--accent) 35%,transparent);color:var(--text)}
-body{background-color:var(--bg);background-image:radial-gradient(ellipse 90% 510px at 85% -170px,rgba(58,122,131,.105),transparent 75%);color:var(--text);letter-spacing:.002em}
-:root[data-theme=light] body{background-image:radial-gradient(ellipse 90% 525px at 82% -170px,rgba(81,150,131,.115),transparent 78%)}
-:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-/* Navigation: restrained glass header, clear controls, no neon accents */
-.site-header{background:rgba(12,23,35,.93);border-color:var(--border);box-shadow:0 2px 20px rgba(0,5,12,.12)}
-:root[data-theme=light] .site-header{background:rgba(250,252,250,.95);box-shadow:0 2px 20px rgba(24,69,65,.045)}
-.nav-shell{min-height:78px}
-.brand{font-weight:800;letter-spacing:-.06em}
-.brand span{color:var(--accent)}
-.main-nav a{color:var(--muted);font-weight:650}
-.main-nav a:hover,.main-nav a:focus{color:var(--accent)}
-.switch,.menu-switch{background:var(--card);border-color:var(--border);color:var(--text);border-radius:10px;min-height:38px;transition:border-color .2s,background .2s}
-.switch:hover,.menu-switch:hover{background:var(--surface);border-color:var(--border-hover)}
-/* Section hierarchy */
-.eyebrow{color:var(--accent);letter-spacing:.14em;font-weight:800}
-.section{padding-block:78px}
-.section+.section{border-color:var(--border)}
-.section-head h2{letter-spacing:-.046em;font-weight:800}
-.section-head p{color:var(--muted);line-height:1.72}
-.hero-v7{min-height:555px;padding:79px 0 82px}
-.hero-v7 .hero-content h1{letter-spacing:-.057em;line-height:1.14}
-.hero-content>p{color:var(--muted);line-height:1.75}
-.author-inline{color:var(--muted)}
-.author-inline img{border-radius:11px;border-color:var(--border)}
-.special-section,.about-strip{background:var(--bg-soft);border-color:var(--border)}
-/* Buttons: single editorial accent, purposeful states */
-.button{border-radius:10px;font-weight:750;min-height:43px;transition:transform .18s ease,border-color .18s ease,background-color .18s ease,box-shadow .18s ease}
-.button.primary{background:var(--primary);color:var(--primary-text);border:1px solid var(--primary);box-shadow:none}
-.button.primary:hover{background:var(--primary-hover);border-color:var(--primary-hover);box-shadow:0 6px 18px rgba(18,87,88,.14)}
-.button.secondary{background:var(--surface);border-color:var(--border);color:var(--text)}
-.button.secondary:hover{background:var(--surface2);border-color:var(--border-hover)}
-.button.subtle{background:transparent;color:var(--accent);border-color:var(--border)}
-.button.subtle:hover{background:var(--soft-accent);border-color:var(--border-hover)}
-.text-link,.publication-year{color:var(--accent)}
-.line-jump>a{border-radius:11px;background:var(--card);border-color:var(--border);color:var(--muted)}
-.line-jump>a:hover{background:var(--surface);border-color:var(--border-hover);color:var(--text)}
-.line-jump span{color:var(--accent)}
-/* Research photography and scientific figures */
-.hero-visual,.research-card,.stage-card,.research-output,.libras-study,.research-feature,.dataset-row,.publication-row,.thesis-item,.student-card,.teaching-panel,.teaching-aside,.case-aside,.contact-card,.detail-gallery figure{
-  border-color:var(--border);box-shadow:var(--shadow);
-}
-.research-card,.stage-card,.research-output,.libras-study,.research-feature,.dataset-row,.publication-row,.thesis-item,.student-card,.teaching-panel,.teaching-aside,.case-aside,.detail-gallery figure{background:var(--card)}
-.research-card:hover,.stage-card:hover,.student-card:hover,.libras-study:hover{border-color:var(--border-hover);transform:translateY(-2px)}
-.card-image img,.stage-card .visual img{transition:transform .28s ease}
-.card-image:hover img,.stage-card:hover img{transform:scale(1.025)}
-.visual{background:var(--surface)}
-.visual figcaption{background:rgba(13,29,37,.87);border:1px solid rgba(255,255,255,.14);color:#f5f9f9}
-.hero-visual{border-radius:18px;background:var(--card)}
-.hero-project-caption{border-top:1px solid var(--border)}
-.hero-project-caption strong{font-size:20px}
-.research-copy h3,.libras-study h3,.stage-card h3{color:var(--text)}
-.research-copy p,.stage-card p,.libras-study-body>p{color:var(--muted)}
-.card-meta span{background:var(--surface);border:1px solid var(--border);color:var(--muted);border-radius:6px;padding:5px 9px;letter-spacing:.02em}
-.card-meta span:nth-child(2){background:var(--soft-accent);border-color:color-mix(in srgb,var(--accent) 24%,var(--border));color:var(--accent)}
-.card-bottom{border-color:var(--border)}
-.stage-label{color:var(--accent)}
-.signo-grid .stage-card{border-top:2px solid var(--accent)}
-.feature-result{border-color:var(--accent)}
-.feature-result>span,.libras-study .libras-study-metrics{color:var(--accent)}
-.libras-study-visual{background:#e9f0f1}
-.libras-study-visual .visual{background:#e9f0f1}
-.libras-study-visual .visual img{object-fit:contain}
-/* Documents remain readable without clipping figures in card thumbnails. */
-.visual.scientific-figure,.visual.scientific-figure img{background:#f1f5f5}
-.visual.scientific-figure img{object-fit:contain;padding:10px}
-.card-image:hover .visual.scientific-figure img{transform:none}
-.detail-gallery img{background:#eef2f1}
-/* Data and paper catalogs: consistent readable surfaces */
-.dataset-row{gap:24px;padding:15px}
-.dataset-tags span{background:var(--surface);border:1px solid var(--border);color:var(--muted)}
-.dataset-action .minor{color:var(--accent);font-weight:700}
-.publication-row{border-radius:14px}
-.pub-venue{color:var(--faint)}
-.publication-row h3{color:var(--text)}
-.pending{background:var(--surface);color:var(--muted)}
-.filter-bar input,.filter-bar select{background:var(--card);color:var(--text);border-color:var(--border)}
-.filter-bar input::placeholder{color:var(--faint);opacity:1}
-.filter-bar input:focus,.filter-bar select:focus{outline:2px solid var(--accent);outline-offset:1px}
-.contact-card{background:linear-gradient(115deg,var(--card),var(--bg-soft));box-shadow:none}
-.contact-mails a{background:var(--card)}
-.contact-mails strong{color:var(--accent)}
-.site-footer{border-color:var(--border)}
-/* Light theme uses its own ink/surface system instead of inverted dark UI. */
-:root[data-theme=light] .hero-content>p,
-:root[data-theme=light] .section-head p,
-:root[data-theme=light] .research-copy p,
-:root[data-theme=light] .stage-card p,
-:root[data-theme=light] .libras-study-body>p{color:#50656d}
+:root[data-theme=light] .site-header{background:#fff9f3f3;border-bottom-color:#ecd8c7;box-shadow:0 4px 20px #9b613612}
+:root[data-theme=light] .brand span{color:#ed702d}
+:root[data-theme=light] .button.primary{background:linear-gradient(105deg,#bb4d18,#984014);color:#fff;border-color:transparent;box-shadow:0 8px 22px #ab532f38}
+:root[data-theme=light] .button.primary:hover{background:linear-gradient(105deg,#ce5b20,#ab4517)}
+:root[data-theme=light] .button.secondary{background:#fff7ef;border-color:#e8d2c0;color:#50382b}
+:root[data-theme=light] .button.subtle{background:#fffaf500;border-color:#e5cab7;color:#9b431b}
+:root[data-theme=light] .special-section{background:linear-gradient(125deg,#ffead9 0%,#fff1e4 51%,#ffede2 100%)}
+:root[data-theme=light] .about-strip{background:#ffecdd}
 :root[data-theme=light] .research-card,
 :root[data-theme=light] .stage-card,
 :root[data-theme=light] .libras-study,
+:root[data-theme=light] .research-feature,
 :root[data-theme=light] .dataset-row,
 :root[data-theme=light] .publication-row,
-:root[data-theme=light] .hero-visual{box-shadow:0 8px 26px rgba(25,66,64,.048)}
-:root[data-theme=light] .hero-project-caption{background:var(--card)}
-:root[data-theme=light] .switch:hover{background:#e8f2ed}
-:root[data-theme=light] .special-section{background:linear-gradient(180deg,#edf4f0,#f0f5f2)}
-:root[data-theme=light] .about-strip{background:#eef4f0}
+:root[data-theme=light] .hero-visual,
+:root[data-theme=light] .student-card{background:#fffdfb;border-color:#ead8c7;box-shadow:0 10px 27px #78492c12}
+:root[data-theme=light] .research-card:hover,
+:root[data-theme=light] .stage-card:hover,
+:root[data-theme=light] .libras-study:hover{border-color:#eaac88;box-shadow:0 15px 34px #ba805221}
+:root[data-theme=light] .signo-grid .stage-card{border-top-color:#ec8b4b}
+:root[data-theme=light] .card-meta span{background:#fff1e7;border-color:#e9c7ae;color:#963d17}
+:root[data-theme=light] .eyebrow{color:#aa471c}
+:root[data-theme=light] .line-jump>a{background:#fffaf4;border-color:#e9d5c0;color:#6e5244}
+:root[data-theme=light] .line-jump>a:hover{background:#ffe7d3;border-color:#df9f7b;color:#633b26}
+:root[data-theme=light] .line-jump span{color:#b55325}
+:root[data-theme=light] .contact-card{background:linear-gradient(115deg,#fffdfb,#ffead9);border-color:#ead6bf}
+:root[data-theme=light] .contact-mails a{background:#fffaf5;border-color:#e6d2bf}
+:root[data-theme=light] .filter-bar input,
+:root[data-theme=light] .filter-bar select{background:#fffdfb;border-color:#e6d3c4;color:#3c2d22}
+:root[data-theme=light] .dataset-tags span{background:#ffead9;color:#765341}
 :root[data-theme=light] .libras-study-visual,
-:root[data-theme=light] .libras-study-visual .visual{background:#f1f5f4}
-:root[data-theme=light] .detail-gallery img{background:#f0f4f3}
-:root[data-theme=light] .contact-card{background:linear-gradient(115deg,#fff,#f0f6f2)}
-/* Mobile: retain clean cards, navigable menu and easy-to-tap theme toggle. */
-@media(max-width:900px){.nav-shell{min-height:67px}.main-nav{background:var(--card);border-color:var(--border);box-shadow:var(--shadow)}}
-@media(max-width:650px){.section{padding-block:54px}.hero-v7{padding:45px 0 56px}.switch,.menu-switch{min-height:38px}.research-card,.stage-card,.dataset-row{border-radius:14px}}
-@media(prefers-reduced-motion:reduce){.button,.research-card,.libras-study,.stage-card{transition:none!important}}
+:root[data-theme=light] .libras-study-visual .visual{background:#fff2e8}
+:root[data-theme=light] .visual:not(.scientific-figure){background:#fff1e6}
+:root[data-theme=light] .detail-gallery img{background:#fff4e8}
+:root[data-theme=light] .research-output,
+:root[data-theme=light] .case-aside,
+:root[data-theme=light] .teaching-panel,
+:root[data-theme=light] .teaching-aside{background:#fffdfb;border-color:#eadbcd}
+:root[data-theme=light] .site-footer{background:#fff7ef}
+:root[data-theme=dark] .special-section{background:linear-gradient(128deg,#0c1728 0%,#111b32 50%,#121a30 100%)}
+:root[data-theme=dark] .research-card:hover,
+:root[data-theme=dark] .stage-card:hover,
+:root[data-theme=dark] .libras-study:hover{box-shadow:0 15px 40px #04091aa3,0 0 0 1px #51d9e536}
+:root[data-theme=dark] .button.primary{background:linear-gradient(105deg,#52dce4,#a49bfa);color:#082135}
+.heading-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.heading-actions .button{white-space:nowrap}
+.visual img[src$="signoperu-iso-overview.svg"]{object-fit:contain;padding:6px;background:transparent}
+.visual img[src$="signoperu-fer-modalities.webp"]{object-fit:contain;background:#f4f4f2}
+@media(prefers-reduced-motion:no-preference){
+ .hero-v7 .hero-content{animation:portfolioEnter .72s cubic-bezier(.18,.8,.26,1) both}
+ .hero-v7-visual{animation:portfolioEnter .87s cubic-bezier(.18,.8,.26,1) both}
+ @keyframes portfolioEnter{from{opacity:0;transform:translateY(17px)}to{opacity:1;transform:translateY(0)}}
+}
+@media(max-width:650px){.heading-actions{justify-content:flex-start;margin-top:18px}.heading-actions .button{white-space:normal}}

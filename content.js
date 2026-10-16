@@ -77,7 +77,7 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "signoperu-text-to-sign.webp",
+      "image": "signoperu-fer-modalities.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
@@ -115,10 +115,17 @@ window.RESEARCH={
       "line": "signoperu",
       "gallery": [
         {
-          "image": "signoperu-text-to-sign.webp",
+          "image": "signoperu-fer-modalities.webp",
           "label": {
-            "en": "Text-to-sign tutorial, actual SignoPeru platform screenshot (not a dataset recording)",
-            "es": "Tutorial Texto a Señas de la plataforma SignoPerú (no es una grabación del dataset)"
+            "en": "Original figure from the related SIGNO-PERU-FER publication. This is not a sample from SIGNO-PERU-ISO.",
+            "es": "Figura original de la publicación relacionada SIGNO-PERU-FER. No es una muestra de SIGNO-PERU-ISO."
+          }
+        },
+        {
+          "image": "signoperu-iso-overview.svg",
+          "label": {
+            "en": "Technical diagram based on SIGNO-PERU-ISO metadata. Not a participant image or experimental figure.",
+            "es": "Esquema técnico basado en los metadatos de SIGNO-PERU-ISO. No es una imagen de participantes ni una figura experimental."
           }
         }
       ]
@@ -1366,7 +1373,7 @@ window.RESEARCH={
       "id": "iso",
       "name": "SIGNO-PERU-ISO",
       "kind": "RGB-D",
-      "image": "signoperu-text-to-sign.webp",
+      "image": "signoperu-iso-overview.svg",
       "status": "restricted",
       "count": "18,179",
       "license": "Access by request / DUA",
@@ -1540,7 +1547,9 @@ window.RESEARCH={
     "fraud-confusion.webp": "Figure from the research publication (author-supplied PDF)",
     "fraud-features.webp": "Figure from the research publication (author-supplied PDF)",
     "signoperu-text-to-sign.webp": "Research image supplied by the author",
-    "signoperu-vr-learning.webp": "Research image supplied by the author"
+    "signoperu-vr-learning.webp": "Research image supplied by the author",
+    "signoperu-fer-modalities.webp": "Figure from the related SIGNO-PERU-FER scientific publication",
+    "signoperu-iso-overview.svg": "Technical schematic based on public SIGNO-PERU-ISO metadata (not a dataset frame)"
   },
-  "editorialVersion": "11.1"
+  "editorialVersion": "12.2"
 };

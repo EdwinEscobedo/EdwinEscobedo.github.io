@@ -79,22 +79,5 @@ function drawFiltered(){const q=(el('query')?.value||'').toLowerCase().trim();co
  if(p==='publicaciones'){const yr=el('pubyear')?.value||'all';results=D.publications.filter(x=>(yr==='all'||String(x.year)===yr)&&(x.title+' '+x.venue+' '+x.area).toLowerCase().includes(q)).map(publicationRow);el('paper-results').innerHTML=results.length?results.join(''):`<p>${txt().empty}</p>`}
 }
 function mount(){document.title=(lang==='es'?'Investigaciones y publicaciones | Edwin Escobedo':'Research and Publications | Edwin Escobedo');document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='light'?'#f7f9fc':'#09101d');el('site-header').innerHTML=titlebar();const page=document.body.dataset.page;const router={home,research:researchPage,investigaciones:researchPage,estudiantes:studentsPage,datasets:datasetsPage,publicaciones:publicationsPage,docencia:teachingPage,proyecto:detailPage};el('app').innerHTML=(router[page]||home)();el('site-footer').innerHTML=foot();el('theme-toggle').addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';localStorage.setItem('edwin-theme',theme);mount()});el('lang-toggle').addEventListener('click',()=>{lang=lang==='en'?'es':'en';localStorage.setItem('edwin-lang',lang);mount()});el('menu-toggle').addEventListener('click',()=>{const n=el('main-nav');n.classList.toggle('show');el('menu-toggle').setAttribute('aria-expanded',String(n.classList.contains('show')))});if(page==='investigaciones'){const param=new URLSearchParams(location.search).get('line');if(param&&['signoperu','libras','stem','other','students'].includes(param))el('category').value=param;}el('query')?.addEventListener('input',drawFiltered);['category','kind','pubyear'].forEach(id=>el(id)?.addEventListener('change',drawFiltered));drawFiltered();}
-/* Privacy-conscious interaction events: no names, emails or raw URLs are sent. */
-document.addEventListener('click',function(event){
-  const anchor=event.target.closest('a[href]');
-  if(!anchor||typeof window.gtag!=='function')return;
-  let url;
-  try{url=new URL(anchor.href,window.location.href);}catch(_){return;}
-  if(!/^https?:$/.test(url.protocol))return;
-  const sameSite=url.hostname===window.location.hostname;
-  const label=anchor.textContent.trim().replace(/\s+/g,' ').slice(0,90);
-  const category=(!sameSite?'outbound_link':url.pathname.endsWith('/proyecto.html')?'research_project':url.pathname.endsWith('/datasets.html')?'datasets_navigation':url.pathname.endsWith('/publicaciones.html')?'publications_navigation':'site_navigation');
-  const data={link_domain:url.hostname,link_path:url.pathname,link_text:label,link_category:category};
-  if(sameSite&&url.pathname.endsWith('/proyecto.html')){
-    const id=url.searchParams.get('id');
-    if(id)data.project_id=id.slice(0,60);
-  }
-  window.gtag('event','portfolio_link_click',data);
-}, {passive:true});
 mount();
 })();

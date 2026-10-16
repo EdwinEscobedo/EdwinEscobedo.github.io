@@ -53,7 +53,23 @@ window.RESEARCH={
         ]
       ],
       "papers": [],
-      "line": "signoperu"
+      "line": "signoperu",
+      "gallery": [
+        {
+          "image": "signoperu-text-to-sign.webp",
+          "label": {
+            "en": "Text-to-sign tutorial in the SignoPeru platform",
+            "es": "Tutorial Texto a Señas en la plataforma SignoPerú"
+          }
+        },
+        {
+          "image": "signoperu-web.webp",
+          "label": {
+            "en": "Official SignoPeru web interface",
+            "es": "Interfaz oficial de SignoPerú"
+          }
+        }
+      ]
     },
     {
       "id": "signo2",
@@ -61,7 +77,7 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "signoperu-recognition.webp",
+      "image": "signoperu-iso-visual.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
@@ -94,7 +110,23 @@ window.RESEARCH={
         ]
       ],
       "papers": [],
-      "line": "signoperu"
+      "line": "signoperu",
+      "gallery": [
+        {
+          "image": "signoperu-text-to-sign.webp",
+          "label": {
+            "en": "Text-to-sign tutorial from the SignoPeru application",
+            "es": "Tutorial Texto a Señas de la aplicación SignoPerú"
+          }
+        },
+        {
+          "image": "signoperu-iso-visual.webp",
+          "label": {
+            "en": "Conceptual illustration of the RGB-D and skeleton modalities",
+            "es": "Ilustración conceptual de las modalidades RGB-D y esqueleto"
+          }
+        }
+      ]
     },
     {
       "id": "signovr",
@@ -583,12 +615,12 @@ window.RESEARCH={
         "es": "Las estrategias de comunicación uniformes no representan las preferencias heterogéneas de los clientes."
       },
       "method": {
-        "en": "Compared three recommendation methods and hybrid clustering on third-party survey data, with a 70/30 evaluation split.",
-        "es": "Comparación de tres métodos de recomendación y clustering híbrido sobre datos de encuesta de terceros, con partición 70/30."
+        "en": "Compared hybrid clustering strategies based on K-means with self-organizing maps, K-means with XGBoost, and Gaussian mixture models with XGBoost. The underlying survey dataset was developed by third parties and published on Mendeley Data.",
+        "es": "Se compararon enfoques de clustering híbrido: K-means con mapas autoorganizados, K-means con XGBoost y modelos de mezclas gaussianas con XGBoost. Los datos de encuesta son de terceros y se publicaron en Mendeley Data."
       },
       "result": {
-        "en": "The study identified Instagram, Pinterest and Telegram among frequently used channels; optimal preferences varied across customer clusters.",
-        "es": "Instagram, Pinterest y Telegram estuvieron entre los canales más utilizados; las preferencias variaron entre segmentos."
+        "en": "GMM–XGBoost obtained the highest reported recall (0.7727) with a silhouette coefficient of 0.385. Preferences for Instagram, Pinterest and Telegram differed across customer segments.",
+        "es": "GMM–XGBoost obtuvo el mayor recall reportado (0,7727) y un coeficiente de silueta de 0,385. Las preferencias por Instagram, Pinterest y Telegram variaron según el segmento."
       },
       "team": "Natalia Urquizo; Lía Sandoval; Guillermo Dávila; Edwin Escobedo",
       "links": [
@@ -600,7 +632,23 @@ window.RESEARCH={
       "papers": [
         "channels"
       ],
-      "line": "students"
+      "line": "students",
+      "gallery": [
+        {
+          "image": "contact-method.webp",
+          "label": {
+            "en": "Five-stage methodological procedure (Figure 1)",
+            "es": "Procedimiento metodológico en cinco etapas (Figura 1)"
+          }
+        },
+        {
+          "image": "contact-clusters.webp",
+          "label": {
+            "en": "Cluster visualization (Figure 5)",
+            "es": "Visualización de los segmentos (Figura 5)"
+          }
+        }
+      ]
     },
     {
       "id": "phish",
@@ -712,7 +760,23 @@ window.RESEARCH={
       "papers": [
         "fraud"
       ],
-      "line": "students"
+      "line": "students",
+      "gallery": [
+        {
+          "image": "fraud-confusion.webp",
+          "label": {
+            "en": "CatBoost confusion matrix, clickstream-enhanced scenario (Figure 4)",
+            "es": "Matriz de confusión de CatBoost con variables de navegación (Figura 4)"
+          }
+        },
+        {
+          "image": "fraud-features.webp",
+          "label": {
+            "en": "Feature importance for CatBoost (Figure 5)",
+            "es": "Importancia de variables para CatBoost (Figura 5)"
+          }
+        }
+      ]
     },
     {
       "id": "viz",
@@ -734,19 +798,35 @@ window.RESEARCH={
         "es": "La selección de gráficos para análisis de ventas requiere interpretar los datos y la intención del usuario."
       },
       "method": {
-        "en": "Bidirectional attention with BERT embeddings and statistical descriptors, supplemented by an LLM for column selection.",
-        "es": "Atención bidireccional con representaciones BERT y descriptores estadísticos, complementada con un LLM para seleccionar columnas."
+        "en": "BiDA4Sales uses BERT embeddings and bidirectional attention to recommend one of seven chart types from tabular data and natural-language intent. LLaMA 3-70B Instruct then suggests relevant columns. The annotated study dataset includes 517 chart-intent examples curated from public sales data.",
+        "es": "BiDA4Sales emplea representaciones BERT y atención bidireccional para recomendar uno de siete tipos de gráfico a partir de datos tabulares y la intención expresada en lenguaje natural. LLaMA 3-70B Instruct sugiere las columnas. Se anotaron 517 ejemplos de visualización procedentes de fuentes públicas de ventas."
       },
       "result": {
-        "en": "F1 90.24% for chart-type recommendation and 79.08% correct column recommendations.",
-        "es": "F1 de 90,24 % para recomendar tipos de gráfico y 79,08 % de acierto en la selección de columnas."
+        "en": "BiDA4Sales achieved an F1-score of 90.24% for chart-type recommendation. The LLM correctly recommended visualization columns in 79.08% of cases.",
+        "es": "BiDA4Sales alcanzó F1 de 90,24 % en la recomendación de tipos de gráfico. El LLM recomendó correctamente las columnas en el 79,08 % de los casos."
       },
       "team": "Jenis Arnold Alvarado Gonzales; Edwin Jonathan Escobedo Cárdenas",
       "links": [],
       "papers": [
         "viz"
       ],
-      "line": "students"
+      "line": "students",
+      "gallery": [
+        {
+          "image": "viz-input-output.webp",
+          "label": {
+            "en": "Inputs and outputs of the proposed model (Figure 1)",
+            "es": "Entradas y salidas del modelo propuesto (Figura 1)"
+          }
+        },
+        {
+          "image": "viz-model.webp",
+          "label": {
+            "en": "BiDA4Sales architecture (Figure 2)",
+            "es": "Arquitectura BiDA4Sales (Figura 2)"
+          }
+        }
+      ]
     },
     {
       "id": "captcha",
@@ -772,15 +852,38 @@ window.RESEARCH={
         "es": "Aplicación de FGSM, PGD y GAN frente a OCR-CNN; las imágenes originales proceden de un dataset externo de Kaggle."
       },
       "result": {
-        "en": "Adversarial variants reduced attack success, although stronger perturbations increased the burden on human readers.",
-        "es": "Las variantes adversariales redujeron el éxito del atacante, aunque perturbaciones intensas dificultaron la lectura humana."
+        "en": "The original CAPTCHA OCR model achieved 99.04% accuracy under unperturbed conditions. FGSM, PGD and GAN variants reduced machine recognition to different degrees, with measurable trade-offs in human readability.",
+        "es": "El reconocedor OCR obtuvo una exactitud de 99,04 % sobre CAPTCHAs originales. Las variantes FGSM, PGD y GAN redujeron el reconocimiento automático, con distintos efectos sobre la legibilidad humana."
       },
       "team": "Luciana Vásquez Montenegro; Giancarlo López García; Edwin Jonathan Escobedo Cárdenas",
       "links": [],
       "papers": [
         "captcha"
       ],
-      "line": "students"
+      "line": "students",
+      "gallery": [
+        {
+          "image": "captcha-pipeline.webp",
+          "label": {
+            "en": "Proposed adversarial evaluation workflow (Figure 1)",
+            "es": "Flujo de evaluación adversarial (Figura 1)"
+          }
+        },
+        {
+          "image": "captcha-adversarial.webp",
+          "label": {
+            "en": "Original and FGSM-perturbed text CAPTCHAs (Figure 3)",
+            "es": "CAPTCHAs originales y perturbados con FGSM (Figura 3)"
+          }
+        },
+        {
+          "image": "captcha-gan.webp",
+          "label": {
+            "en": "CAPTCHA variants with PGD and GAN (Figure 5)",
+            "es": "Variantes de CAPTCHA mediante PGD y GAN (Figura 5)"
+          }
+        }
+      ]
     },
     {
       "id": "risk",
@@ -1259,7 +1362,7 @@ window.RESEARCH={
       "id": "iso",
       "name": "SIGNO-PERU-ISO",
       "kind": "RGB-D",
-      "image": "pairs.svg",
+      "image": "signoperu-iso-visual.webp",
       "status": "restricted",
       "count": "18,179",
       "license": "Controlled",
@@ -1390,18 +1493,18 @@ window.RESEARCH={
     "fig-lowlight.webp": "Research figure from the cited publication",
     "fig-zoo.webp": "Research figure from the cited publication",
     "fig-phish.webp": "Research figure from the cited publication",
-    "fig-fake.webp": "Research figure from the cited publication",
-    "fig-viz.webp": "Research figure from the cited publication",
+    "fig-fake.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
+    "fig-viz.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
     "fig-resnet.webp": "Research figure from the cited publication",
     "fig-risk.webp": "Research figure from the cited publication",
-    "fig-captcha.webp": "Research figure from the cited publication",
+    "fig-captcha.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
     "fig-sports.webp": "Research figure from the cited publication",
-    "fig-fraud.webp": "Research figure from the cited publication",
+    "fig-fraud.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
     "fig-bsl.webp": "Research figure from the cited publication",
     "fig-libras.webp": "Research figure from the cited publication",
     "fig-fer.webp": "Research figure from the cited publication",
     "fig-mask.webp": "Research figure from the cited publication",
-    "fig-contact.webp": "Research figure from the cited publication",
+    "fig-contact.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
     "signoperu-web.webp": "Research image supplied by the author",
     "signoperu-recognition.webp": "Research image supplied by the author",
     "signoperu-vr.webp": "Research image supplied by the author",
@@ -1412,7 +1515,20 @@ window.RESEARCH={
     "libras-ufop-rgb-depth-skeleton.webp": "Original research paper, LIBRAS-UFOP (Figure 4)",
     "libras-ufop-minimal-pairs.webp": "Original research paper, LIBRAS-UFOP (Figure 5)",
     "breast-thermography-app.webp": "Research image supplied by the author",
-    "breast-thermography-results.webp": "Research image supplied by the author"
+    "breast-thermography-results.webp": "Research image supplied by the author",
+    "signoperu-iso-visual.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
+    "signoperu-concept.webp": "Original conceptual artwork derived from the research, not an original experiment figure",
+    "viz-model.webp": "Figure from the research publication (author-supplied PDF)",
+    "viz-input-output.webp": "Figure from the research publication (author-supplied PDF)",
+    "captcha-pipeline.webp": "Figure from the research publication (author-supplied PDF)",
+    "captcha-adversarial.webp": "Figure from the research publication (author-supplied PDF)",
+    "captcha-gan.webp": "Figure from the research publication (author-supplied PDF)",
+    "contact-method.webp": "Figure from the research publication (author-supplied PDF)",
+    "contact-clusters.webp": "Figure from the research publication (author-supplied PDF)",
+    "fraud-confusion.webp": "Figure from the research publication (author-supplied PDF)",
+    "fraud-features.webp": "Figure from the research publication (author-supplied PDF)",
+    "signoperu-text-to-sign.webp": "Research image supplied by the author",
+    "signoperu-vr-learning.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "9.0"
+  "editorialVersion": "10.0"
 };

@@ -60,3 +60,8 @@
 .libras-study-visual .visual:has(img[src*="libras-ufop-"]) img,
 .dataset-row .visual:has(img[src*="libras-ufop-"]) img{object-fit:contain;background:var(--surface2)}
 @media(max-width:690px){.detail-gallery{grid-template-columns:1fr}.detail-gallery img{height:260px}}
+
+/* V10: Keep publication credits available without covering scientific figures. */
+.visual figcaption{opacity:0;transform:translateY(5px);pointer-events:none;transition:opacity .18s ease,transform .18s ease}
+.visual:hover figcaption,.visual:focus-within figcaption{opacity:1;transform:translateY(0)}
+@media (hover:none){.visual figcaption{display:none}}

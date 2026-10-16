@@ -77,14 +77,14 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "signoperu-iso-visual.webp",
+      "image": "signoperu-recognition.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
       },
       "summary": {
-        "en": "A multimodal research line tackling visually similar signs through RGB, depth and body-pose data, with emphasis on small changes that alter meaning.",
-        "es": "Investigación multimodal sobre señas visualmente similares usando RGB, profundidad y datos corporales, con énfasis en diferencias sutiles que cambian el significado."
+        "en": "Peruvian Sign Language minimal-pair recognition using RGB, depth and skeleton modalities. The SIGNO-PERU-ISO dataset and its data publication are scientific outputs of this SignoPerú research project.",
+        "es": "Reconocimiento de pares mínimos en Lengua de Señas Peruana mediante modalidades RGB, profundidad y esqueleto. El dataset SIGNO-PERU-ISO y su publicación de datos son productos científicos de este proyecto SignoPerú."
       },
       "problem": {
         "en": "Visually similar signs are often confused by automatic recognition systems.",
@@ -95,8 +95,8 @@ window.RESEARCH={
         "es": "Capturar secuencias RGB-D, estudiar pares mínimos y analizar errores entre clases."
       },
       "result": {
-        "en": "SIGNO-PERU-ISO: 18,179 RGB-D sign sequences from 17 signers. Zenodo record is public; data access is controlled.",
-        "es": "SIGNO-PERU-ISO: 18 179 secuencias RGB-D de 17 signantes. La ficha está disponible y el acceso a los archivos es controlado."
+        "en": "Research output: SIGNO-PERU-ISO documents 18,179 RGB-D sequences from 17 native signers across six semantic categories. The dataset is registered on Zenodo and is available to researchers by request under a Data Usage Agreement.",
+        "es": "Producto de investigación: SIGNO-PERU-ISO documenta 18 179 secuencias RGB-D de 17 signantes nativos y seis categorías semánticas. El dataset está registrado en Zenodo y se facilita a investigadores mediante solicitud y acuerdo de uso de datos."
       },
       "team": "Lourdes Ramírez Cerna; Paulo Nazareno Sampaio Maia",
       "links": [
@@ -109,21 +109,23 @@ window.RESEARCH={
           "https://cris.ulima.edu.pe/es/projects/signoper%C3%BA-estudio-de-pares-m%C3%ADnimos-en-el-reconocimiento-de-palabr/"
         ]
       ],
-      "papers": [],
+      "papers": [
+        "iso"
+      ],
       "line": "signoperu",
       "gallery": [
+        {
+          "image": "signoperu-recognition.webp",
+          "label": {
+            "en": "Peruvian Sign Language recognition with facial and hand landmarks, author-provided project example",
+            "es": "Reconocimiento de Lengua de Señas Peruana con puntos faciales y de manos; imagen del proyecto proporcionada por el autor"
+          }
+        },
         {
           "image": "signoperu-text-to-sign.webp",
           "label": {
             "en": "Text-to-sign tutorial from the SignoPeru application",
             "es": "Tutorial Texto a Señas de la aplicación SignoPerú"
-          }
-        },
-        {
-          "image": "signoperu-iso-visual.webp",
-          "label": {
-            "en": "Conceptual illustration of the RGB-D and skeleton modalities",
-            "es": "Ilustración conceptual de las modalidades RGB-D y esqueleto"
           }
         }
       ]
@@ -1024,6 +1026,15 @@ window.RESEARCH={
       "line": "students"
     },
     {
+      "id": "iso",
+      "year": 2026,
+      "venue": "Zenodo · Research dataset publication",
+      "title": "SIGNO-PERU-ISO: A Minimal-Pair Dataset of Isolated Signs for Peruvian Sign Language Recognition",
+      "url": "https://doi.org/10.5281/zenodo.18990737",
+      "area": "Multimodal Peruvian Sign Language data",
+      "line": "signoperu"
+    },
+    {
       "id": "fer",
       "year": 2026,
       "venue": "Scientific Data",
@@ -1362,17 +1373,18 @@ window.RESEARCH={
       "id": "iso",
       "name": "SIGNO-PERU-ISO",
       "kind": "RGB-D",
-      "image": "signoperu-iso-visual.webp",
+      "image": "signoperu-recognition.webp",
       "status": "restricted",
       "count": "18,179",
-      "license": "Controlled",
+      "license": "Access by request / DUA",
       "url": "https://zenodo.org/records/18990737",
       "project": "signo2",
       "description": {
-        "en": "RGB, depth and skeleton sequences for Peruvian Sign Language, captured from 17 signers.",
-        "es": "Secuencias RGB, profundidad y esqueleto de LSP capturadas con 17 signantes."
+        "en": "SIGNO-PERU-ISO is the multimodal dataset and documented data publication associated with the SignoPerú minimal-pair recognition project: 18,179 RGB-D sequences from 17 native signers across six semantic categories. Files are available by request under a Data Usage Agreement.",
+        "es": "SIGNO-PERU-ISO es el dataset multimodal y publicación de datos asociados al proyecto SignoPerú de reconocimiento de pares mínimos: 18 179 secuencias RGB-D de 17 signantes nativos en seis categorías semánticas. Los archivos requieren solicitud y acuerdo de uso de datos."
       },
-      "origin": "SignoPerú · Institutional project"
+      "origin": "SignoPerú · Minimal-pair recognition research project",
+      "paper": "iso"
     },
     {
       "id": "fer",
@@ -1388,7 +1400,8 @@ window.RESEARCH={
         "en": "14 facial-expression classes, 16 native LSP signers, synchronized RGB and depth. Access by request under the paper’s Data Use Agreement.",
         "es": "14 expresiones faciales, 16 signantes de LSP y modalidades RGB y profundidad sincronizadas. Acceso mediante solicitud y acuerdo de uso."
       },
-      "origin": "SignoPerú · Institutional project"
+      "origin": "SignoPerú · Institutional project",
+      "paper": "fer"
     },
     {
       "id": "libras",
@@ -1404,7 +1417,8 @@ window.RESEARCH={
       "description": {
         "en": "Original LIBRAS-UFOP dataset from doctoral research: 56 signs, 3,040 sequences, five signers, recorded in RGB, depth and skeleton formats.",
         "es": "Dataset LIBRAS-UFOP de la investigación doctoral: 56 señas, 3040 secuencias y cinco signantes; modalidades RGB, profundidad y esqueleto."
-      }
+      },
+      "paper": "libras"
     },
     {
       "id": "bsl",
@@ -1420,7 +1434,8 @@ window.RESEARCH={
       "description": {
         "en": "Brazilian Sign Language facial expressions with RGB and depth representations. User-supplied Zenodo record; file accessibility not independently verified.",
         "es": "Expresiones faciales en Libras con representaciones RGB y profundidad. Ficha de Zenodo proporcionada; acceso a archivos sin verificación independiente."
-      }
+      },
+      "paper": "fer2"
     },
     {
       "id": "perufood",
@@ -1436,7 +1451,8 @@ window.RESEARCH={
         "en": "Images of 40 Peruvian traditional dishes for image recognition.",
         "es": "Imágenes de 40 platos tradicionales peruanos para reconocimiento visual."
       },
-      "origin": "Research with students"
+      "origin": "Research with students",
+      "paper": "food"
     },
     {
       "id": "chintex",
@@ -1452,7 +1468,8 @@ window.RESEARCH={
         "en": "Annotated images of 28 traditional textile iconography classes from Chinchero.",
         "es": "Imágenes anotadas de 28 clases de iconografía textil de Chinchero."
       },
-      "origin": "Scientific collaboration"
+      "origin": "Scientific collaboration",
+      "paper": "chintex"
     },
     {
       "id": "masked",
@@ -1468,7 +1485,8 @@ window.RESEARCH={
       "description": {
         "en": "Face images with and without masks recorded for the ResNet-50, VGG-16, ViT and Swin Transformer comparison; public Universidad de Lima repository record.",
         "es": "Imágenes faciales con y sin mascarilla para comparar ResNet-50, VGG-16, ViT y Swin Transformer; ficha en el repositorio de la Universidad de Lima."
-      }
+      },
+      "paper": "masked"
     },
     {
       "id": "fake",
@@ -1484,7 +1502,8 @@ window.RESEARCH={
       "description": {
         "en": "Research dataset of real and false Spanish-language news, with associated code and data documented in the authors’ GitHub repository.",
         "es": "Dataset de noticias reales y falsas en español, con datos y código publicados por sus autores en GitHub."
-      }
+      },
+      "paper": "fake"
     }
   ],
   "imageCredits": {
@@ -1530,5 +1549,5 @@ window.RESEARCH={
     "signoperu-text-to-sign.webp": "Research image supplied by the author",
     "signoperu-vr-learning.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "10.0"
+  "editorialVersion": "10.1"
 };

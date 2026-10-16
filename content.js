@@ -602,7 +602,7 @@ window.RESEARCH={
       "year": "2026",
       "category": "Research with students",
       "role": "Coauthor",
-      "image": "fig-contact.webp",
+      "image": "contact-method.webp",
       "group": "student",
       "title": {
         "en": "Customer contact-channel recommendation",
@@ -730,7 +730,7 @@ window.RESEARCH={
       "year": "2025",
       "category": "Research with students",
       "role": "Coauthor",
-      "image": "fig-fraud.webp",
+      "image": "fraud-confusion.webp",
       "group": "student",
       "title": {
         "en": "Credit card fraud detection using clickstream behavior",
@@ -785,7 +785,7 @@ window.RESEARCH={
       "year": "2025",
       "category": "Research with students",
       "role": "Coauthor",
-      "image": "fig-viz.webp",
+      "image": "viz-input-output.webp",
       "group": "student",
       "title": {
         "en": "Machine learning for tabular visualization recommendation",
@@ -835,7 +835,7 @@ window.RESEARCH={
       "year": "2025",
       "category": "Research with students",
       "role": "Coauthor",
-      "image": "fig-captcha.webp",
+      "image": "captcha-adversarial.webp",
       "group": "student",
       "title": {
         "en": "Robustness of text CAPTCHAs against automated attacks",
@@ -1216,7 +1216,7 @@ window.RESEARCH={
       "project": "fraud",
       "year": "2025",
       "person": "Renzo Saucedo; Piero Inga",
-      "image": "fig-fraud.webp",
+      "image": "fraud-confusion.webp",
       "pub": "fraud",
       "title": {
         "en": "Credit card fraud detection using clickstream behavior",
@@ -1233,7 +1233,7 @@ window.RESEARCH={
       "project": "viz",
       "year": "2025",
       "person": "Jenis Arnold Alvarado Gonzales",
-      "image": "fig-viz.webp",
+      "image": "viz-input-output.webp",
       "pub": "viz",
       "title": {
         "en": "Machine learning for tabular visualization recommendation",
@@ -1250,7 +1250,7 @@ window.RESEARCH={
       "project": "captcha",
       "year": "2025",
       "person": "Luciana Vásquez Montenegro; Giancarlo López García",
-      "image": "fig-captcha.webp",
+      "image": "captcha-adversarial.webp",
       "pub": "captcha",
       "title": {
         "en": "Robustness of text CAPTCHAs against automated attacks",
@@ -1318,7 +1318,7 @@ window.RESEARCH={
       "project": "contact",
       "year": "2026",
       "person": "Natalia Urquizo; Lía Sandoval; Guillermo Dávila",
-      "image": "fig-contact.webp",
+      "image": "contact-method.webp",
       "pub": "channels",
       "title": {
         "en": "Customer contact-channel recommendation",
@@ -1549,5 +1549,5 @@ window.RESEARCH={
     "signoperu-text-to-sign.webp": "Research image supplied by the author",
     "signoperu-vr-learning.webp": "Research image supplied by the author"
   },
-  "editorialVersion": "10.1"
+  "editorialVersion": "10.2"
 };

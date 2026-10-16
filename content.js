@@ -77,14 +77,14 @@ window.RESEARCH={
       "category": "Sign language",
       "stage": 2,
       "role": "PI",
-      "image": "signoperu-fer-modalities.webp",
+      "image": "signoperu-iso-signer.webp",
       "title": {
         "en": "SignoPeru · Minimal-pair recognition",
         "es": "SignoPerú · reconocimiento de pares mínimos"
       },
       "summary": {
-        "en": "Peruvian Sign Language minimal-pair recognition using RGB, depth and skeleton modalities. The SIGNO-PERU-ISO dataset and its data publication are scientific outputs of this SignoPerú research project.",
-        "es": "Reconocimiento de pares mínimos en Lengua de Señas Peruana mediante modalidades RGB, profundidad y esqueleto. El dataset SIGNO-PERU-ISO y su publicación de datos son productos científicos de este proyecto SignoPerú."
+        "en": "Research on fine-grained recognition of isolated Peruvian Sign Language signs using RGB, depth and skeletal information. This SignoPerú stage produced the SIGNO-PERU-ISO dataset (18,179 sequences from 17 signers) and is complemented by the related SIGNO-PERU-FER study of facial expressions.",
+        "es": "Investigación del reconocimiento fino de señas aisladas de la Lengua de Señas Peruana mediante información RGB, profundidad y esqueleto. Esta etapa de SignoPerú produjo SIGNO-PERU-ISO (18 179 secuencias de 17 signantes) y se complementa con SIGNO-PERU-FER, dedicado al estudio de expresiones faciales."
       },
       "problem": {
         "en": "Visually similar signs are often confused by automatic recognition systems.",
@@ -115,17 +115,24 @@ window.RESEARCH={
       "line": "signoperu",
       "gallery": [
         {
-          "image": "signoperu-fer-modalities.webp",
+          "image": "signoperu-iso-signer.webp",
           "label": {
-            "en": "Original figure from the related SIGNO-PERU-FER publication. This is not a sample from SIGNO-PERU-ISO.",
-            "es": "Figura original de la publicación relacionada SIGNO-PERU-FER. No es una muestra de SIGNO-PERU-ISO."
+            "en": "Peruvian Sign Language signing sample provided for SIGNO-PERU-ISO.",
+            "es": "Muestra de seña en Lengua de Señas Peruana proporcionada para SIGNO-PERU-ISO."
           }
         },
         {
           "image": "signoperu-iso-overview.svg",
           "label": {
-            "en": "Technical diagram based on SIGNO-PERU-ISO metadata. Not a participant image or experimental figure.",
-            "es": "Esquema técnico basado en los metadatos de SIGNO-PERU-ISO. No es una imagen de participantes ni una figura experimental."
+            "en": "Technical overview of the SIGNO-PERU-ISO dataset.",
+            "es": "Resumen técnico del dataset SIGNO-PERU-ISO."
+          }
+        },
+        {
+          "image": "signoperu-fer-modalities.webp",
+          "label": {
+            "en": "Figure from the related SIGNO-PERU-FER research publication (a separate dataset).",
+            "es": "Figura de la investigación relacionada SIGNO-PERU-FER (un dataset diferente)."
           }
         }
       ]
@@ -178,8 +185,8 @@ window.RESEARCH={
         "es": "Expresiones faciales en Lengua de Señas Peruana"
       },
       "summary": {
-        "en": "A multimodal RGB-D facial-expression dataset and peer-reviewed data descriptor for studying non-manual elements of sign language.",
-        "es": "Dataset multimodal RGB-D de expresiones faciales y artículo de datos revisado por pares para estudiar componentes no manuales de la lengua de señas."
+        "en": "Complementary SignoPerú research on facial expressions as non-manual elements of Peruvian Sign Language. The SIGNO-PERU-FER dataset documents 1,256 synchronized RGB-D sequences from 16 participants across 14 classes, with a scientific data descriptor published in Scientific Data.",
+        "es": "Investigación complementaria de SignoPerú sobre las expresiones faciales como componentes no manuales de la Lengua de Señas Peruana. SIGNO-PERU-FER documenta 1256 secuencias RGB-D sincronizadas de 16 participantes en 14 clases, con un artículo de datos publicado en Scientific Data."
       },
       "problem": {
         "en": "Non-manual features matter for sign-language understanding but are underrepresented in data.",
@@ -1373,15 +1380,15 @@ window.RESEARCH={
       "id": "iso",
       "name": "SIGNO-PERU-ISO",
       "kind": "RGB-D",
-      "image": "signoperu-iso-overview.svg",
+      "image": "signoperu-iso-signer.webp",
       "status": "restricted",
       "count": "18,179",
       "license": "Access by request / DUA",
       "url": "https://zenodo.org/records/18990737",
       "project": "signo2",
       "description": {
-        "en": "SIGNO-PERU-ISO is the multimodal dataset and documented data publication associated with the SignoPerú minimal-pair recognition project: 18,179 RGB-D sequences from 17 native signers across six semantic categories. Files are available by request under a Data Usage Agreement.",
-        "es": "SIGNO-PERU-ISO es el dataset multimodal y publicación de datos asociados al proyecto SignoPerú de reconocimiento de pares mínimos: 18 179 secuencias RGB-D de 17 signantes nativos en seis categorías semánticas. Los archivos requieren solicitud y acuerdo de uso de datos."
+        "en": "SIGNO-PERU-ISO is an RGB-D dataset developed within the SignoPerú research line to study isolated signs and challenging minimal-pair distinctions in Peruvian Sign Language. It contains 18,179 sequences from 17 native signers in six semantic categories. The related SIGNO-PERU-FER dataset addresses facial expressions as a separate, complementary research output. ISO data access requires a request and Data Usage Agreement.",
+        "es": "SIGNO-PERU-ISO es un conjunto RGB-D desarrollado dentro de la línea de investigación SignoPerú para estudiar señas aisladas y distinciones complejas entre pares mínimos de la Lengua de Señas Peruana. Contiene 18 179 secuencias de 17 signantes nativos en seis categorías semánticas. SIGNO-PERU-FER estudia las expresiones faciales como otro producto científico complementario. El acceso a los datos ISO requiere solicitud y acuerdo de uso."
       },
       "origin": "SignoPerú · Minimal-pair recognition research project",
       "paper": "iso"
@@ -1549,7 +1556,8 @@ window.RESEARCH={
     "signoperu-text-to-sign.webp": "Research image supplied by the author",
     "signoperu-vr-learning.webp": "Research image supplied by the author",
     "signoperu-fer-modalities.webp": "Figure from the related SIGNO-PERU-FER scientific publication",
-    "signoperu-iso-overview.svg": "Technical schematic based on public SIGNO-PERU-ISO metadata (not a dataset frame)"
+    "signoperu-iso-overview.svg": "Technical schematic based on public SIGNO-PERU-ISO metadata (not a dataset frame)",
+    "signoperu-iso-signer.webp": "Author-supplied authentic image for the SIGNO-PERU-ISO dataset"
   },
-  "editorialVersion": "12.2"
+  "editorialVersion": "12.5"
 };

@@ -1,4 +1,4 @@
-# Edwin Escobedo — Academic Research Portfolio V8
+# Edwin Escobedo — Academic Research Portfolio V10.1
 
 A bilingual, responsive academic research website organized by **research lines**, not by CV entries.
 
@@ -39,3 +39,10 @@ LIBRAS combines the PhD dataset and Facial-BSL as equally weighted cards under o
 - Dataset index lists eight authored or collaboratively developed datasets with identifiable records/repositories. External datasets used in credit card fraud and customer contact studies, an unverified PhishingLong download, and internal thermography research data are **not** listed as independently published datasets. Their use remains documented in the relevant research cases.
 - Fake News is represented by its dataset entry and its paper in Publications, rather than a duplicate project card.
 - The LIBRAS and thermography detail pages have source-image galleries.
+
+## Dataset and publication relationships
+
+- **SIGNO-PERU-ISO** is an original SignoPerú dataset associated with the minimal-pair recognition project (`signo2`), rather than an external project. Its confirmed DOI `10.5281/zenodo.18990737` points to the **Zenodo research dataset publication**; a distinct journal-article DOI has not been verified and must not be invented. Files are access-controlled under a Data Usage Agreement.
+- **LIBRAS-UFOP** is the dataset from doctoral research at UFOP; the *Expert Systems with Applications* paper `10.1016/j.eswa.2020.114179` documents this work, not an additional standalone dataset. Facial-BSL is grouped with Brazilian Sign Language research and has its own record.
+- The approved **Other scientific projects** remain breast thermography, wildlife monitoring (Desmodus), and CHINTEXDB-PERU28. **Research with students** remains separate.
+- The independent SIGNO-PERU-FER and surgical-mask facial recognition datasets are retained because they have distinct repository records. External datasets used only for experimentation are referenced by the corresponding research projects, not duplicated as original publications.

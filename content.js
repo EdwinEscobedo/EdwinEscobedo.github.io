@@ -456,20 +456,20 @@ window.RESEARCH={
         "es": "CHINTEXDB-PERU28 · patrimonio textil"
       },
       "summary": {
-        "en": "A public dataset of 1,358 images across 28 annotated classes of traditional Chinchero textile motifs for computer vision and cultural preservation.",
-        "es": "Dataset público de 1 358 imágenes y 28 clases de motivos textiles de Chinchero para visión computacional y preservación cultural."
+        "en": "CHINTEXDB-PERU28 is a curated visual dataset documenting handwoven textile iconographies from Chinchero, Cusco. Its 1,358 images represent 28 classes of Andean textile motifs collected during fieldwork with local artisan communities, combining cultural-heritage documentation and reproducible image-recognition research.",
+        "es": "CHINTEXDB-PERU28 es un conjunto visual documentado de iconografías textiles artesanales de Chinchero, Cusco. Reúne 1358 imágenes de 28 clases de motivos andinos obtenidas en trabajo de campo con comunidades artesanas, vinculando la documentación del patrimonio cultural con la investigación reproducible en reconocimiento de imágenes."
       },
       "problem": {
-        "en": "Culturally grounded annotated visual datasets are limited.",
-        "es": "Son escasos los datasets visuales anotados de patrimonio cultural."
+        "en": "Computer-vision research has few curated resources representing the symbolic motifs, textures and visual variability of traditional Andean weaving. This limits reproducible work on locally relevant cultural imagery.",
+        "es": "La investigación en visión computacional dispone de pocos recursos curados que representen motivos simbólicos, texturas y variabilidad visual del tejido tradicional andino, lo que limita los estudios reproducibles sobre patrimonio cultural local."
       },
       "method": {
-        "en": "Image collection, YOLO-format annotation and open data publication.",
-        "es": "Recopilación, anotación en formato YOLO y publicación abierta."
+        "en": "Photographic acquisition in textile production centers in Chinchero, organization and annotation of 1,358 images into 28 motif classes, quality review and documentation of acquisition conditions, followed by distribution through Mendeley Data.",
+        "es": "Captura fotográfica en centros de producción textil de Chinchero, organización y anotación de 1358 imágenes en 28 clases de motivos, revisión de calidad y documentación de las condiciones de adquisición, con publicación en Mendeley Data."
       },
       "result": {
-        "en": "Published dataset on Mendeley Data and article in Data in Brief.",
-        "es": "Dataset publicado en Mendeley Data y artículo en Data in Brief."
+        "en": "The dataset is publicly available through Mendeley Data and described in a 2026 Data in Brief article (volume 66, article 112835). The contribution is an annotated heritage-image resource rather than a claim of a deployed cultural-recognition product.",
+        "es": "El conjunto está disponible públicamente en Mendeley Data y documentado en un artículo de Data in Brief de 2026 (volumen 66, artículo 112835). Su contribución principal es un recurso anotado de imágenes patrimoniales, no un producto desplegado de reconocimiento cultural."
       },
       "team": "Gabriela Farfan Enriquez; Ruben Ancco Peralta; Edwin Jonathan Escobedo Cárdenas; Hernán Nina Hanco; Lauro Enciso Rodas; Carlos Fernando Montoya Cubas",
       "links": [
@@ -499,20 +499,20 @@ window.RESEARCH={
         "es": "PeruFoodNet · dataset de gastronomía peruana"
       },
       "summary": {
-        "en": "Four thousand images of forty traditional Peruvian dishes for recognition models and research on allergenic ingredients.",
-        "es": "Cuatro mil imágenes de cuarenta platos peruanos para modelos de reconocimiento e investigación sobre ingredientes alergénicos."
+        "en": "PeruFoodNet addresses the lack of representative visual resources for Peruvian gastronomy. It assembles 4,000 labeled photographs of 40 traditional dishes, with 100 images per class, and associates the categories with ingredient information relevant to research on potential food allergens.",
+        "es": "PeruFoodNet aborda la escasez de recursos visuales representativos de la gastronomía peruana. Reúne 4000 fotografías etiquetadas de 40 platos tradicionales, con 100 imágenes por clase, y vincula las categorías con información de ingredientes pertinente para investigar posibles alérgenos alimentarios."
       },
       "problem": {
-        "en": "Peruvian cuisine is underrepresented in image-recognition datasets.",
-        "es": "La gastronomía peruana está poco representada en datasets de imágenes."
+        "en": "Widely used food-image datasets underrepresent traditional Peruvian dishes, making it difficult to benchmark models across local presentations, ingredients and visual appearances.",
+        "es": "Los conjuntos de imágenes de alimentos más utilizados representan poco a los platos tradicionales peruanos, lo que dificulta evaluar modelos ante sus presentaciones, ingredientes y apariencias visuales."
       },
       "method": {
-        "en": "Collected 4,000 photographs (100 images for each of 40 dishes), mostly taken by the study team, and catalogued potentially allergenic ingredients from documented recipes.",
-        "es": "Se recopilaron 4 000 fotografías (100 por cada uno de 40 platos), mayoritariamente capturadas por el equipo, y se documentaron posibles alérgenos a partir de recetas."
+        "en": "Capture and curation of a balanced dataset with 40 dish categories and 100 photographs per category, followed by image labeling and documentation of potentially allergenic ingredients based on recipe information.",
+        "es": "Captura y curación de un conjunto equilibrado de 40 categorías de platos y 100 fotografías por categoría, con etiquetado de imágenes y documentación de ingredientes potencialmente alergénicos a partir de información de recetas."
       },
       "result": {
-        "en": "Open dataset and a Data in Brief publication.",
-        "es": "Dataset abierto y publicación en Data in Brief."
+        "en": "The 4,000-image dataset is accessible on Mendeley Data and documented in a 2025 Data in Brief publication. It provides a reproducible resource for culinary image classification and food-ingredient research without implying that an allergen detector was clinically validated.",
+        "es": "El conjunto de 4000 imágenes está disponible en Mendeley Data y documentado en una publicación de Data in Brief de 2025. Ofrece un recurso reproducible para clasificación de comida e investigación sobre ingredientes sin afirmar que se haya validado clínicamente un detector de alérgenos."
       },
       "team": "María Franchesca Arzola Gutierrez; Edgar Alexander Canchari Muñoz; Edwin Jonathan Escobedo Cárdenas",
       "links": [
@@ -543,20 +543,20 @@ window.RESEARCH={
         "es": "Mejora de imágenes con baja iluminación y detección de personas en móviles"
       },
       "summary": {
-        "en": "A GAN with an adaptive ratio-log illumination module restores poorly lit images and supports YOLO-based human detection on a mobile device.",
-        "es": "Una GAN con módulo de iluminación adaptativa ratio-log mejora imágenes oscuras y apoya la detección de personas mediante YOLO en un dispositivo móvil."
+        "en": "The study proposes a generative image-enhancement pipeline for scenes with insufficient illumination, combining a GAN-based restoration model with adaptive ratio-log processing. It also measures whether enhanced images improve downstream YOLO-based person detection and explores Android deployment.",
+        "es": "El estudio propone un pipeline generativo para mejorar escenas con iluminación insuficiente, combinando un modelo de restauración basado en GAN con procesamiento adaptativo ratio-log. También analiza si las imágenes mejoradas favorecen la detección posterior de personas con YOLO y explora su implementación en Android."
       },
       "problem": {
-        "en": "Insufficient lighting reduces image quality and human-detection confidence.",
-        "es": "La baja iluminación reduce la calidad visual y la confianza de los detectores de personas."
+        "en": "Poor illumination removes texture and contrast needed by object detectors; visual enhancement must be evaluated not only with image-quality indices but also through its effect on the intended recognition task.",
+        "es": "La poca iluminación reduce las texturas y el contraste necesarios para detectar objetos; por ello, la mejora visual debe evaluarse tanto con índices de calidad como por sus efectos en la tarea posterior de reconocimiento."
       },
       "method": {
-        "en": "Encoder-decoder GAN with residual blocks, ratio-log fusion, YOLO detection experiments and an Android implementation.",
-        "es": "GAN encoder-decoder con bloques residuales, fusión ratio-log, pruebas de detección con YOLO e implementación en Android."
+        "en": "Development of an encoder–decoder GAN using residual components and adaptive ratio-log illumination fusion; benchmarking of restored images on LOLv1 with PSNR and SSIM; testing YOLO person-detection confidence before and after enhancement; and mobile-app integration.",
+        "es": "Desarrollo de una GAN codificador–decodificador con componentes residuales y fusión adaptativa ratio-log de iluminación; evaluación de imágenes restauradas en LOLv1 mediante PSNR y SSIM; comparación de confianza de detección de personas con YOLO antes y después de la mejora; e integración móvil."
       },
       "result": {
-        "en": "LOLv1: PSNR 25.15 dB and SSIM 0.909; YOLO confidence rose from 0.44 to 0.78 on average in the study scenarios.",
-        "es": "LOLv1: PSNR de 25,15 dB y SSIM de 0,909; la confianza promedio de YOLO pasó de 0,44 a 0,78 en los escenarios evaluados."
+        "en": "In the reported experiments, the method achieved PSNR 25.15 dB and SSIM 0.909 on LOLv1. Mean YOLO detection confidence in the evaluated scenarios increased from 0.44 to 0.78, illustrating benefits for downstream detection under those conditions.",
+        "es": "En los experimentos reportados, el método obtuvo PSNR de 25,15 dB y SSIM de 0,909 en LOLv1. La confianza media de detección con YOLO en los escenarios evaluados aumentó de 0,44 a 0,78, mostrando mejoras en la detección bajo esas condiciones."
       },
       "team": "Sebastián Enrique Camayo Ramos; Edwin Jonathan Escobedo Cárdenas",
       "links": [
@@ -582,20 +582,20 @@ window.RESEARCH={
         "es": "Predicción de resultados de combates de taekwondo"
       },
       "summary": {
-        "en": "Machine-learning models use historical competition records to predict results under sequence-based and head-to-head formulations.",
-        "es": "Modelos de aprendizaje automático emplean historiales de competencia para predecir resultados en enfoques secuenciales y de enfrentamientos."
+        "en": "This study explores the prediction of taekwondo match results using competition records from Peru in 2023–2024. It compares eight machine-learning approaches in two formulations—sequential competition history and direct head-to-head encounters—to assess how the structure of historical evidence affects forecasts.",
+        "es": "El estudio investiga la predicción de resultados de combates de taekwondo utilizando registros competitivos del Perú de 2023 y 2024. Compara ocho métodos de aprendizaje automático en dos enfoques —historial secuencial de competencias y enfrentamientos directos— para analizar cómo la estructura de los antecedentes influye en el pronóstico."
       },
       "problem": {
-        "en": "Taekwondo outcome prediction from competitive history has received limited attention.",
-        "es": "La predicción de combates de taekwondo a partir de historiales competitivos ha sido poco estudiada."
+        "en": "Predicting outcomes in combat sports is difficult because competitive records are sparse or uneven and a fighter's general history may not describe a specific opponent matchup.",
+        "es": "Predecir resultados en deportes de combate es complejo porque los antecedentes son dispersos o desiguales y el historial general de un deportista puede no representar adecuadamente un enfrentamiento particular."
       },
       "method": {
-        "en": "Curated Peruvian federation records for 2023–2024; evaluated eight models on sequence and head-to-head datasets.",
-        "es": "Estructuración de registros federativos de 2023–2024 y evaluación de ocho modelos en conjuntos secuenciales y por enfrentamiento."
+        "en": "Compilation and preprocessing of federation competition histories, construction of sequential and head-to-head predictive datasets, comparison of eight machine-learning models and evaluation using F1-scores on the respective prediction tasks.",
+        "es": "Recopilación y preprocesamiento de historiales competitivos de la federación, construcción de datasets predictivos secuenciales y de enfrentamientos directos, comparación de ocho modelos de aprendizaje automático y evaluación del F1 en cada tarea."
       },
       "result": {
-        "en": "LightGBM achieved F1 84% on sequences and XGBoost 75% on head-to-head records; no public dataset URL was established.",
-        "es": "LightGBM obtuvo F1 de 84 % en secuencias y XGBoost 75 % en enfrentamientos; no se confirmó enlace público al dataset."
+        "en": "LightGBM obtained 84% F1 on the sequence formulation, whereas XGBoost reached 75% F1 on head-to-head prediction in the reported study. These findings are specific to the curated historical data and evaluation protocol.",
+        "es": "LightGBM obtuvo F1 de 84 % en el enfoque secuencial, mientras que XGBoost alcanzó F1 de 75 % en la predicción de enfrentamientos directos. Los resultados corresponden a los registros históricos curados y al protocolo de evaluación del estudio."
       },
       "team": "Daphne Solange Velásquez Chávez; Ximena Nataly Utani Bendezu; Edwin Jonathan Escobedo Cárdenas",
       "links": [],
@@ -616,20 +616,20 @@ window.RESEARCH={
         "es": "Recomendación de canales de contacto con clientes"
       },
       "summary": {
-        "en": "Uses clustering and customer interaction patterns to recommend communication channels, considering differences between audience segments.",
-        "es": "Utiliza clustering y patrones de interacción para recomendar canales de comunicación según los segmentos de clientes."
+        "en": "Research on recommending communication channels to prospective customers through audience segmentation and hybrid machine-learning models. Using a third-party survey dataset, the study compares K-means with self-organizing maps, K-means with XGBoost and Gaussian mixtures with XGBoost, finding distinct Instagram, Pinterest and Telegram usage patterns across groups.",
+        "es": "Investigación sobre la recomendación de canales de comunicación para clientes potenciales mediante segmentación de audiencias y modelos híbridos de aprendizaje automático. Con datos de encuestas de terceros, compara K-means con mapas autoorganizados, K-means con XGBoost y mezclas gaussianas con XGBoost, identificando diferencias entre grupos en el uso de Instagram, Pinterest y Telegram."
       },
       "problem": {
-        "en": "Uniform marketing strategies do not reflect heterogeneous customer communication preferences.",
-        "es": "Las estrategias de comunicación uniformes no representan las preferencias heterogéneas de los clientes."
+        "en": "A uniform digital-marketing strategy overlooks customer groups with distinct social-media habits and communication preferences, leading to poorly targeted outreach.",
+        "es": "Una estrategia uniforme de marketing digital ignora grupos de clientes con hábitos y preferencias distintas en redes sociales, lo que dificulta dirigir adecuadamente las comunicaciones."
       },
       "method": {
-        "en": "Compared hybrid clustering strategies based on K-means with self-organizing maps, K-means with XGBoost, and Gaussian mixture models with XGBoost. The underlying survey dataset was developed by third parties and published on Mendeley Data.",
-        "es": "Se compararon enfoques de clustering híbrido: K-means con mapas autoorganizados, K-means con XGBoost y modelos de mezclas gaussianas con XGBoost. Los datos de encuesta son de terceros y se publicaron en Mendeley Data."
+        "en": "Survey-data preparation followed by a 70/30 train/test split; evaluation of three hybrid clustering/classification strategies (K-means–SOM, K-means–XGBoost and GMM–XGBoost), with segmentation indices and predictive performance metrics.",
+        "es": "Preparación de datos de encuestas y partición 70/30 de entrenamiento/prueba; evaluación de tres estrategias híbridas de agrupamiento y clasificación (K-means–SOM, K-means–XGBoost y GMM–XGBoost), con índices de segmentación y métricas predictivas."
       },
       "result": {
-        "en": "GMM–XGBoost obtained the highest reported recall (0.7727) with a silhouette coefficient of 0.385. Preferences for Instagram, Pinterest and Telegram differed across customer segments.",
-        "es": "GMM–XGBoost obtuvo el mayor recall reportado (0,7727) y un coeficiente de silueta de 0,385. Las preferencias por Instagram, Pinterest y Telegram variaron según el segmento."
+        "en": "GMM–XGBoost reported the strongest recall (0.7727) with silhouette coefficient 0.385. Usage patterns varied by segment, suggesting that educational and commercial outreach should account for audience characteristics rather than apply a single channel universally.",
+        "es": "GMM–XGBoost reportó el mejor recall (0,7727) con coeficiente de silueta de 0,385. Los patrones de uso variaron entre segmentos, por lo que las estrategias de comunicación deben considerar las características de cada audiencia en lugar de aplicar un canal único."
       },
       "team": "Natalia Urquizo; Lía Sandoval; Guillermo Dávila; Edwin Escobedo",
       "links": [
@@ -671,20 +671,20 @@ window.RESEARCH={
         "es": "PhishFind: detección de phishing en tiempo real"
       },
       "summary": {
-        "en": "A browser extension combines machine-learning analysis of URLs and webpage content with explanations of suspicious sites.",
-        "es": "Extensión para navegadores que combina análisis de URL y contenido web mediante aprendizaje automático con explicaciones de páginas sospechosas."
+        "en": "PhishFind is a browser-oriented phishing warning prototype that classifies suspicious URLs and webpage indicators with machine learning. It combines the PhishingLong research dataset, assembled from sources including PhishTank and Majestic, with a REST-based service and an interface designed to explain risks while browsing.",
+        "es": "PhishFind es un prototipo de advertencias contra phishing para navegadores que clasifica URL e indicadores de páginas sospechosas mediante aprendizaje automático. Integra el dataset de investigación PhishingLong, construido con fuentes como PhishTank y Majestic, un servicio REST y una interfaz orientada a explicar riesgos durante la navegación."
       },
       "problem": {
-        "en": "Phishing warnings often lack transparent, timely explanations.",
-        "es": "Las alertas de phishing suelen carecer de explicaciones claras y oportunas."
+        "en": "Phishing sites imitate trusted services, while opaque security alerts can prevent users from understanding why a link is dangerous or how to respond.",
+        "es": "Los sitios de phishing imitan servicios confiables, mientras que las alertas de seguridad poco transparentes dificultan comprender por qué un enlace es peligroso y cómo actuar."
       },
       "method": {
-        "en": "Constructed the PhishingLong dataset from PhishTank and Majestic sources, trained classifiers and integrated a REST-based browser widget.",
-        "es": "Construcción de PhishingLong a partir de PhishTank y Majestic, entrenamiento de clasificadores e integración de un complemento web mediante API REST."
+        "en": "Curate phishing and legitimate-site indicators from source datasets, generate URL/webpage features, compare classification algorithms and integrate the selected model into a REST service and browser-facing extension for timely warnings.",
+        "es": "Curar indicadores de sitios legítimos y de phishing desde datasets de origen, generar variables de URL y páginas web, comparar clasificadores e integrar el modelo seleccionado en un servicio REST y una extensión para emitir advertencias oportunas."
       },
       "result": {
-        "en": "Gradient Boosting achieved an F1-score of 97.34% in the reported evaluation; no public PhishingLong download link is verified.",
-        "es": "Gradient Boosting obtuvo F1 de 97,34 % en la evaluación; no se ha verificado un enlace de descarga pública de PhishingLong."
+        "en": "Gradient Boosting achieved a reported F1-score of 97.34% on the study evaluation. The browser interface demonstrates a potential real-time application; no public download link for the complete PhishingLong collection has been verified.",
+        "es": "Gradient Boosting alcanzó F1 reportado de 97,34 % en la evaluación del estudio. La interfaz del navegador demuestra una aplicación potencial en tiempo real; no se ha verificado un enlace de descarga pública de la colección PhishingLong completa."
       },
       "team": "Diego O. Mendoza Vega; Dylan O. Díaz Mercado; Edwin J. Escobedo Cárdenas",
       "links": [],
@@ -705,20 +705,20 @@ window.RESEARCH={
         "es": "ZooSQL: aprendizaje interactivo de SQL"
       },
       "summary": {
-        "en": "A serious game teaches SQL, relational algebra and PL/SQL through progressively more complex challenges, feedback and game mechanics.",
-        "es": "Juego serio que enseña SQL, álgebra relacional y PL/SQL mediante retos progresivos, retroalimentación y mecánicas lúdicas."
+        "en": "ZooSQL is an educational serious game designed to strengthen SQL, relational algebra and PL/SQL through progressive tasks rather than passive exercises. Its mechanics and feedback were developed following the MDA framework, and its evaluation combined MEEGA+ user-experience measures with before-and-after knowledge assessments.",
+        "es": "ZooSQL es un juego serio educativo para fortalecer SQL, álgebra relacional y PL/SQL mediante desafíos progresivos en lugar de ejercicios pasivos. Sus mecánicas y retroalimentación se diseñaron con el marco MDA y su evaluación combinó medidas de experiencia de usuario MEEGA+ con pruebas de conocimiento antes y después."
       },
       "problem": {
-        "en": "Database and programming concepts can be difficult to acquire through passive instruction alone.",
-        "es": "Los conceptos de bases de datos pueden ser difíciles de asimilar únicamente mediante enseñanza expositiva."
+        "en": "Students often struggle to transfer database theory into executable queries and to understand the feedback needed to correct errors in increasingly complex SQL tasks.",
+        "es": "Los estudiantes suelen tener dificultades para convertir conceptos teóricos de bases de datos en consultas ejecutables y comprender la retroalimentación necesaria para corregir errores en tareas SQL de complejidad creciente."
       },
       "method": {
-        "en": "Game development guided by MDA, followed by MEEGA+ user-experience and pre/post knowledge assessments.",
-        "es": "Desarrollo del juego mediante MDA, evaluación de experiencia con MEEGA+ y cuestionarios de conocimientos pre/post."
+        "en": "Design gameplay challenges covering relational algebra and SQL/PLSQL, structure progression and feedback using Mechanics–Dynamics–Aesthetics, then evaluate learning change with pre/post tests and player experience with MEEGA+.",
+        "es": "Diseñar desafíos de juego sobre álgebra relacional y SQL/PLSQL; organizar progresión y retroalimentación mediante Mechanics–Dynamics–Aesthetics; y evaluar cambios en conocimiento con pretest/postest y experiencia de juego con MEEGA+."
       },
       "result": {
-        "en": "Test scores improved by an average of 3.35 correct answers (13.96%) in the study.",
-        "es": "Las puntuaciones aumentaron en promedio 3,35 respuestas correctas (13,96 %) en el estudio."
+        "en": "The study reported an average improvement of 3.35 correct answers, corresponding to 13.96%, between the knowledge assessments. The game provides an example of practice-oriented database instruction; further controlled evaluation would be needed to isolate its causal effect.",
+        "es": "El estudio reportó una mejora promedio de 3,35 respuestas correctas, equivalente al 13,96 %, entre evaluaciones de conocimientos. El juego constituye una propuesta de enseñanza práctica de bases de datos; serían necesarias evaluaciones controladas adicionales para aislar su efecto causal."
       },
       "team": "Eduardo Patrick Miñan Panduro; Paolo Giuliano Zapata Albújar; José Jesús Valdivia Caballero; Edwin Escobedo Cárdenas",
       "links": [
@@ -906,20 +906,20 @@ window.RESEARCH={
         "es": "Predicción de riesgo crediticio con algoritmos boosting"
       },
       "summary": {
-        "en": "Compares XGBoost, LightGBM and Boosted Random Forest on five UCI credit-risk datasets, incorporating clustering-derived features.",
-        "es": "Compara XGBoost, LightGBM y Boosted Random Forest en cinco datasets de riesgo crediticio de UCI, incorporando variables obtenidas mediante clustering."
+        "en": "A comparative study of credit-risk prediction with boosting methods—XGBoost, LightGBM and Boosted Random Forest—across five public UCI financial datasets. It investigates whether preprocessing, categorical encodings, K-means-derived features and hyperparameter optimization improve the identification of borrowers with different risk profiles.",
+        "es": "Estudio comparativo de predicción de riesgo crediticio mediante XGBoost, LightGBM y Boosted Random Forest sobre cinco datasets financieros públicos de UCI. Examina si el preprocesamiento, las codificaciones categóricas, las variables derivadas de K-means y la optimización de hiperparámetros mejoran la identificación de perfiles de riesgo."
       },
       "problem": {
-        "en": "Financial institutions require robust and interpretable approaches to credit-risk screening.",
-        "es": "Las instituciones financieras necesitan metodologías rigurosas para estimar el riesgo crediticio."
+        "en": "Credit-risk modeling must address heterogeneous variables, dataset-specific class balance and reliable evaluation, since high aggregate accuracy can hide mistakes involving financially important minority cases.",
+        "es": "El modelado de riesgo crediticio debe considerar variables heterogéneas, desbalances distintos entre conjuntos y evaluación confiable, ya que una exactitud global elevada puede ocultar errores en casos minoritarios relevantes."
       },
       "method": {
-        "en": "Five public UCI datasets; preprocessing, categorical encodings, K-means clusters and cross-validated hyperparameter search.",
-        "es": "Cinco datasets públicos de UCI; preprocesamiento, codificación categórica, K-means y búsqueda de hiperparámetros con validación cruzada."
+        "en": "Experimental pipelines across five UCI datasets, including data cleaning, categorical encoding, clustering-based feature creation, supervised model training and cross-validated hyperparameter searches for three boosting-family approaches.",
+        "es": "Pipelines experimentales sobre cinco conjuntos UCI que incluyen limpieza, codificación de variables categóricas, creación de características basadas en clustering, entrenamiento supervisado y búsqueda de hiperparámetros con validación cruzada para tres métodos de boosting."
       },
       "result": {
-        "en": "XGBoost performed best in the overall study comparisons, with results varying by dataset and evaluation protocol.",
-        "es": "XGBoost presentó los mejores resultados globales de las comparaciones, con variaciones según dataset y protocolo."
+        "en": "The paper identifies XGBoost as the strongest overall performer under its benchmark configuration, while performance differs by dataset and preprocessing choices. This is a controlled model comparison, not validation for automated lending decisions.",
+        "es": "El artículo identifica a XGBoost como el método de mejor desempeño global en su configuración experimental, aunque el rendimiento varía según el dataset y el preprocesamiento. Es una comparación controlada de modelos, no una validación para tomar decisiones crediticias automatizadas."
       },
       "team": "Renzo Orlando Villanueva Mora; Edwin Jonathan Escobedo Cárdenas",
       "links": [
@@ -945,20 +945,20 @@ window.RESEARCH={
         "es": "Reconocimiento facial con oclusión por mascarilla"
       },
       "summary": {
-        "en": "Compares convolutional and transformer architectures for identifying people with and without face masks using a dataset recorded for the study.",
-        "es": "Compara arquitecturas convolucionales y transformers para identificar personas con y sin mascarilla utilizando un dataset elaborado para el estudio."
+        "en": "This study compares convolutional and vision-transformer architectures for face identification when surgical masks occlude the lower face. A dataset involving 30 participants supports evaluation of ResNet-50, VGG-16, Vision Transformer and Swin Transformer in masked and unmasked recognition conditions.",
+        "es": "El estudio compara arquitecturas convolucionales y transformadores visuales para reconocer rostros cuando una mascarilla quirúrgica oculta la parte inferior de la cara. Un conjunto con 30 participantes permite evaluar ResNet-50, VGG-16, Vision Transformer y Swin Transformer en condiciones con y sin mascarilla."
       },
       "problem": {
-        "en": "Face masks obscure substantial facial features used for identification.",
-        "es": "Las mascarillas ocultan características faciales necesarias para la identificación."
+        "en": "Surgical-mask occlusion removes visible landmarks normally used by facial-recognition systems; algorithms must rely on the remaining features without assuming performance matches unoccluded images.",
+        "es": "La oclusión por mascarilla quirúrgica elimina referencias visuales utilizadas por sistemas de reconocimiento facial; los algoritmos deben trabajar con las regiones visibles sin asumir un rendimiento equivalente al de rostros descubiertos."
       },
       "method": {
-        "en": "30-subject image dataset; transfer learning with ResNet-50, VGG-16, Vision Transformer and Swin Transformer.",
-        "es": "Dataset de 30 sujetos; transferencia de aprendizaje con ResNet-50, VGG-16, Vision Transformer y Swin Transformer."
+        "en": "Create masked and unmasked facial-image evaluation groups from 30 subjects, train or fine-tune ResNet-50, VGG-16, ViT and Swin Transformer, and compare recognition accuracy across occlusion conditions.",
+        "es": "Construir conjuntos de evaluación facial con y sin mascarilla a partir de 30 sujetos, entrenar o ajustar ResNet-50, VGG-16, ViT y Swin Transformer, y comparar la exactitud de reconocimiento entre condiciones de oclusión."
       },
       "result": {
-        "en": "Vision Transformer obtained 96% testing accuracy without masks and 87% with masks in the reported experiment.",
-        "es": "Vision Transformer logró 96 % de exactitud de prueba sin mascarilla y 87 % con mascarilla."
+        "en": "Vision Transformer attained 96% test accuracy for images without surgical masks and 87% with masks in the reported experiment, illustrating the performance gap under lower-face occlusion.",
+        "es": "Vision Transformer alcanzó 96 % de exactitud en prueba con rostros sin mascarilla y 87 % con mascarilla en el experimento reportado, evidenciando la reducción del rendimiento ante la oclusión facial inferior."
       },
       "team": "Brenda Xiomara Tafur Acenjo; Martín Alexis Tello Pariona; Edwin Jonathan Escobedo Cárdenas",
       "links": [
@@ -1559,5 +1559,5 @@ window.RESEARCH={
     "signoperu-iso-overview.svg": "Technical schematic based on public SIGNO-PERU-ISO metadata (not a dataset frame)",
     "signoperu-iso-signer.webp": "Author-supplied authentic image for the SIGNO-PERU-ISO dataset"
   },
-  "editorialVersion": "13.0"
+  "editorialVersion": "13.1"
 };
